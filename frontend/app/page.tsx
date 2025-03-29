@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center">
       <header className="w-full bg-primary p-4 text-white">
         <div className="container mx-auto">
-          <h1 className="text-3xl font-bold">AcsessiBuddy</h1>
+          <h1 className="text-3xl font-bold">AccessiBuddy</h1>
           <p className="text-xl">Find accessible locations in Toronto</p>
         </div>
       </header>
@@ -16,7 +16,7 @@ export default function Home() {
 
       <footer className="w-full bg-primary p-4 text-white">
         <div className="container mx-auto text-center">
-          <p>© {new Date().getFullYear()} AcsessiBuddy - Making Toronto accessible for everyone</p>
+          <p>© {new Date().getFullYear()} AccessiBuddy - Making Toronto accessible for everyone</p>
         </div>
       </footer>
     </main>
