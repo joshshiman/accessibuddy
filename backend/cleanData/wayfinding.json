@@ -1,0 +1,2711 @@
+[
+    {
+        "placeID": 1,
+        "type": "Wayfinding structure",
+        "name": "6 Front St E",
+        "longitude": -79.3759460502314,
+        "latitude": 43.6474430631145
+    },
+    {
+        "placeID": 2,
+        "type": "Wayfinding structure",
+        "name": "110 Yonge St",
+        "longitude": -79.3784310716862,
+        "latitude": 43.6501933898053
+    },
+    {
+        "placeID": 3,
+        "type": "Wayfinding structure",
+        "name": "333 Bay St",
+        "longitude": -79.3807498436106,
+        "latitude": 43.6500719824693
+    },
+    {
+        "placeID": 4,
+        "type": "Wayfinding structure",
+        "name": "55 Wellington St W",
+        "longitude": -79.3797294972872,
+        "latitude": 43.6471478468616
+    },
+    {
+        "placeID": 5,
+        "type": "Wayfinding structure",
+        "name": "1033 King St W",
+        "longitude": -79.416202946375,
+        "latitude": 43.6411126316127
+    },
+    {
+        "placeID": 6,
+        "type": "Wayfinding structure",
+        "name": "97 Front St W",
+        "longitude": -79.3821852537377,
+        "latitude": 43.6452601260944
+    },
+    {
+        "placeID": 7,
+        "type": "Wayfinding structure",
+        "name": "5227",
+        "longitude": -79.3961000532753,
+        "latitude": 43.6953360058897
+    },
+    {
+        "placeID": 8,
+        "type": "Wayfinding structure",
+        "name": "181 University Ave",
+        "longitude": -79.3854585848163,
+        "latitude": 43.6490683479431
+    },
+    {
+        "placeID": 9,
+        "type": "Wayfinding structure",
+        "name": "330 King St W",
+        "longitude": -79.3901112998158,
+        "latitude": 43.6465757386119
+    },
+    {
+        "placeID": 10,
+        "type": "Wayfinding structure",
+        "name": "4 King St W",
+        "longitude": -79.3781625097189,
+        "latitude": 43.6491650764013
+    },
+    {
+        "placeID": 11,
+        "type": "Wayfinding structure",
+        "name": "121 King St W",
+        "longitude": -79.3832059585965,
+        "latitude": 43.6479355604423
+    },
+    {
+        "placeID": 12,
+        "type": "Wayfinding structure",
+        "name": "145 Queen St W",
+        "longitude": -79.3860840959512,
+        "latitude": 43.6503697417246
+    },
+    {
+        "placeID": 13,
+        "type": "Wayfinding structure",
+        "name": "110 Spadina Ave",
+        "longitude": -79.3958078082254,
+        "latitude": 43.6469075521265
+    },
+    {
+        "placeID": 14,
+        "type": "Wayfinding structure",
+        "name": "55 John St",
+        "longitude": -79.3894553963038,
+        "latitude": 43.6465724238217
+    },
+    {
+        "placeID": 15,
+        "type": "Wayfinding structure",
+        "name": "157 King St E",
+        "longitude": -79.372476478379,
+        "latitude": 43.6502597323009
+    },
+    {
+        "placeID": 16,
+        "type": "Wayfinding structure",
+        "name": "1 Queen St E",
+        "longitude": -79.3790337821072,
+        "latitude": 43.6523900186883
+    },
+    {
+        "placeID": 17,
+        "type": "Wayfinding structure",
+        "name": "160 Queen St W",
+        "longitude": -79.3869369832201,
+        "latitude": 43.6509354777999
+    },
+    {
+        "placeID": 18,
+        "type": "Wayfinding structure",
+        "name": "317 Dundas St W",
+        "longitude": -79.3935912355155,
+        "latitude": 43.6537953407959
+    },
+    {
+        "placeID": 19,
+        "type": "Wayfinding structure",
+        "name": "438 University Ave",
+        "longitude": -79.3886459169792,
+        "latitude": 43.6547174189724
+    },
+    {
+        "placeID": 20,
+        "type": "Wayfinding structure",
+        "name": "443 University Ave",
+        "longitude": -79.3879733765955,
+        "latitude": 43.6546595492671
+    },
+    {
+        "placeID": 21,
+        "type": "Wayfinding structure",
+        "name": "294 Yonge St",
+        "longitude": -79.3809129236261,
+        "latitude": 43.6561178142643
+    },
+    {
+        "placeID": 22,
+        "type": "Wayfinding structure",
+        "name": "302 Yonge St",
+        "longitude": -79.3811446700654,
+        "latitude": 43.6563462847092
+    },
+    {
+        "placeID": 23,
+        "type": "Wayfinding structure",
+        "name": "150 Dundas St W",
+        "longitude": -79.3853161333101,
+        "latitude": 43.6555015562831
+    },
+    {
+        "placeID": 24,
+        "type": "Wayfinding structure",
+        "name": "170 Elizabeth St",
+        "longitude": -79.386064943266,
+        "latitude": 43.6570059087611
+    },
+    {
+        "placeID": 25,
+        "type": "Wayfinding structure",
+        "name": "525 University Ave",
+        "longitude": -79.3885976172194,
+        "latitude": 43.6562528046055
+    },
+    {
+        "placeID": 26,
+        "type": "Wayfinding structure",
+        "name": "1 College St",
+        "longitude": -79.3834694264905,
+        "latitude": 43.6612185779957
+    },
+    {
+        "placeID": 27,
+        "type": "Wayfinding structure",
+        "name": "College St at Queen's Park - Queen's Park Station",
+        "longitude": -79.3898966584089,
+        "latitude": 43.6600976568513
+    },
+    {
+        "placeID": 28,
+        "type": "Wayfinding structure",
+        "name": "671 University Ave",
+        "longitude": -79.3900534859058,
+        "latitude": 43.6595890157393
+    },
+    {
+        "placeID": 29,
+        "type": "Wayfinding structure",
+        "name": "214 College St",
+        "longitude": -79.39635011511,
+        "latitude": 43.6587066365002
+    },
+    {
+        "placeID": 30,
+        "type": "Wayfinding structure",
+        "name": "260 College St",
+        "longitude": -79.3996632951907,
+        "latitude": 43.6580708119303
+    },
+    {
+        "placeID": 31,
+        "type": "Wayfinding structure",
+        "name": "130 St George St",
+        "longitude": -79.3985842692227,
+        "latitude": 43.664179683768
+    },
+    {
+        "placeID": 32,
+        "type": "Wayfinding structure",
+        "name": "Toronto",
+        "longitude": -79.3941051578782,
+        "latitude": 43.6650930026223
+    },
+    {
+        "placeID": 33,
+        "type": "Wayfinding structure",
+        "name": "7 Queen's Park Cres E",
+        "longitude": -79.3897534833723,
+        "latitude": 43.6616745993173
+    },
+    {
+        "placeID": 34,
+        "type": "Wayfinding structure",
+        "name": "900 Bay St",
+        "longitude": -79.3873465438278,
+        "latitude": 43.6642386338853
+    },
+    {
+        "placeID": 35,
+        "type": "Wayfinding structure",
+        "name": "566 Yonge St",
+        "longitude": -79.3845998111041,
+        "latitude": 43.6647850656641
+    },
+    {
+        "placeID": 36,
+        "type": "Wayfinding structure",
+        "name": "325 Front St W",
+        "longitude": -79.3908435149869,
+        "latitude": 43.6425930730042
+    },
+    {
+        "placeID": 37,
+        "type": "Wayfinding structure",
+        "name": "25 York St",
+        "longitude": -79.3802756669463,
+        "latitude": 43.6432372265263
+    },
+    {
+        "placeID": 38,
+        "type": "Wayfinding structure",
+        "name": "208 Queens Quay W",
+        "longitude": -79.3805254588219,
+        "latitude": 43.6400065976175
+    },
+    {
+        "placeID": 39,
+        "type": "Wayfinding structure",
+        "name": "5140 Yonge St",
+        "longitude": -79.4128682928242,
+        "latitude": 43.7683599375696
+    },
+    {
+        "placeID": 40,
+        "type": "Wayfinding structure",
+        "name": "3080 Yonge St",
+        "longitude": -79.4025200371127,
+        "latitude": 43.7258824327541
+    },
+    {
+        "placeID": 41,
+        "type": "Wayfinding structure",
+        "name": "1900 Yonge St",
+        "longitude": -79.3966606517742,
+        "latitude": 43.6979988248587
+    },
+    {
+        "placeID": 42,
+        "type": "Wayfinding structure",
+        "name": "1465 Dundas St W",
+        "longitude": -79.4306970180517,
+        "latitude": 43.6495458813549
+    },
+    {
+        "placeID": 43,
+        "type": "Wayfinding structure",
+        "name": "989 Eglinton Ave W",
+        "longitude": -79.4304995575139,
+        "latitude": 43.6998564215232
+    },
+    {
+        "placeID": 44,
+        "type": "Wayfinding structure",
+        "name": "10 Lower Jarvis St",
+        "longitude": -79.369847218056,
+        "latitude": 43.6453545270311
+    },
+    {
+        "placeID": 45,
+        "type": "Wayfinding structure",
+        "name": "5095 Yonge St",
+        "longitude": -79.4125343876509,
+        "latitude": 43.768518058194
+    },
+    {
+        "placeID": 46,
+        "type": "Wayfinding structure",
+        "name": "559 College St",
+        "longitude": -79.4123997772168,
+        "latitude": 43.6554401772613
+    },
+    {
+        "placeID": 47,
+        "type": "Wayfinding structure",
+        "name": "267 College St",
+        "longitude": -79.3997724591687,
+        "latitude": 43.6577288834458
+    },
+    {
+        "placeID": 48,
+        "type": "Wayfinding structure",
+        "name": "429 Danforth Ave",
+        "longitude": -79.350924434939,
+        "latitude": 43.6776658312856
+    },
+    {
+        "placeID": 49,
+        "type": "Wayfinding structure",
+        "name": "610 Bay St",
+        "longitude": -79.3840365156804,
+        "latitude": 43.6562033249492
+    },
+    {
+        "placeID": 50,
+        "type": "Wayfinding structure",
+        "name": "468 Queen St W",
+        "longitude": -79.3999922893816,
+        "latitude": 43.6480690360381
+    },
+    {
+        "placeID": 51,
+        "type": "Wayfinding structure",
+        "name": "1071 Queen St W",
+        "longitude": -79.4214988164093,
+        "latitude": 43.6435890682652
+    },
+    {
+        "placeID": 52,
+        "type": "Wayfinding structure",
+        "name": "370 Dundas St W",
+        "longitude": -79.3934235358987,
+        "latitude": 43.6539577040364
+    },
+    {
+        "placeID": 53,
+        "type": "Wayfinding structure",
+        "name": "790 Queen St W",
+        "longitude": -79.4136938499282,
+        "latitude": 43.6453026768579
+    },
+    {
+        "placeID": 54,
+        "type": "Wayfinding structure",
+        "name": "555 University Ave",
+        "longitude": -79.388883458102,
+        "latitude": 43.6567580405853
+    },
+    {
+        "placeID": 55,
+        "type": "Wayfinding structure",
+        "name": "351 College St",
+        "longitude": -79.4034284718279,
+        "latitude": 43.65719630616
+    },
+    {
+        "placeID": 56,
+        "type": "Wayfinding structure",
+        "name": "2 St Clair Ave E",
+        "longitude": -79.3941035877519,
+        "latitude": 43.6883486917493
+    },
+    {
+        "placeID": 57,
+        "type": "Wayfinding structure",
+        "name": "Queen St East at Church St",
+        "longitude": -79.3759664965954,
+        "latitude": 43.6532354516825
+    },
+    {
+        "placeID": 58,
+        "type": "Wayfinding structure",
+        "name": "20 Eglinton Ave W",
+        "longitude": -79.3995936810983,
+        "latitude": 43.7065672265787
+    },
+    {
+        "placeID": 59,
+        "type": "Wayfinding structure",
+        "name": "821 Eglinton Ave W",
+        "longitude": -79.4247945721355,
+        "latitude": 43.7010532573796
+    },
+    {
+        "placeID": 60,
+        "type": "Wayfinding structure",
+        "name": "641 Bay St",
+        "longitude": -79.3840656838269,
+        "latitude": 43.6568561234855
+    },
+    {
+        "placeID": 61,
+        "type": "Wayfinding structure",
+        "name": "200 Eglinton Ave W",
+        "longitude": -79.4053620152221,
+        "latitude": 43.7053469036811
+    },
+    {
+        "placeID": 62,
+        "type": "Wayfinding structure",
+        "name": "655 Queen St W",
+        "longitude": -79.4040494913906,
+        "latitude": 43.646968351967
+    },
+    {
+        "placeID": 63,
+        "type": "Wayfinding structure",
+        "name": "70 University Ave",
+        "longitude": -79.3843656248821,
+        "latitude": 43.646576597057
+    },
+    {
+        "placeID": 64,
+        "type": "Wayfinding structure",
+        "name": "123 Queen St W",
+        "longitude": -79.3842829925404,
+        "latitude": 43.6512526313674
+    },
+    {
+        "placeID": 65,
+        "type": "Wayfinding structure",
+        "name": "200 Bloor St E",
+        "longitude": -79.3809171753775,
+        "latitude": 43.6716120126358
+    },
+    {
+        "placeID": 66,
+        "type": "Wayfinding structure",
+        "name": "33 Yonge St",
+        "longitude": -79.3771376478389,
+        "latitude": 43.6478260888823
+    },
+    {
+        "placeID": 67,
+        "type": "Wayfinding structure",
+        "name": "1661 Queen St E",
+        "longitude": -79.3140870661573,
+        "latitude": 43.666820437132
+    },
+    {
+        "placeID": 68,
+        "type": "Wayfinding structure",
+        "name": "1255 Bay St",
+        "longitude": -79.3899985462963,
+        "latitude": 43.6712290685108
+    },
+    {
+        "placeID": 69,
+        "type": "Wayfinding structure",
+        "name": "2770 Yonge St",
+        "longitude": -79.4010750688981,
+        "latitude": 43.7189732744816
+    },
+    {
+        "placeID": 70,
+        "type": "Wayfinding structure",
+        "name": "132 John St",
+        "longitude": -79.3907688174179,
+        "latitude": 43.6488555593286
+    },
+    {
+        "placeID": 71,
+        "type": "Wayfinding structure",
+        "name": "Lower Sherbourne St at Queens Quay East",
+        "longitude": -79.3655871338025,
+        "latitude": 43.6454906758443
+    },
+    {
+        "placeID": 72,
+        "type": "Wayfinding structure",
+        "name": "12 Yonge St",
+        "longitude": -79.3757418606891,
+        "latitude": 43.6434577646787
+    },
+    {
+        "placeID": 73,
+        "type": "Wayfinding structure",
+        "name": "100 Queen St W",
+        "longitude": -79.3825818286728,
+        "latitude": 43.6519133966694
+    },
+    {
+        "placeID": 74,
+        "type": "Wayfinding structure",
+        "name": "501 Church St",
+        "longitude": -79.3807707622178,
+        "latitude": 43.6655519115487
+    },
+    {
+        "placeID": 75,
+        "type": "Wayfinding structure",
+        "name": "949 Eglinton Ave W",
+        "longitude": -79.4285607415717,
+        "latitude": 43.7002660357792
+    },
+    {
+        "placeID": 76,
+        "type": "Wayfinding structure",
+        "name": "444 Yonge St",
+        "longitude": -79.3831599944606,
+        "latitude": 43.6612291537687
+    },
+    {
+        "placeID": 77,
+        "type": "Wayfinding structure",
+        "name": "92 Front St E",
+        "longitude": -79.372322550529,
+        "latitude": 43.6491537882573
+    },
+    {
+        "placeID": 78,
+        "type": "Wayfinding structure",
+        "name": "308 Queen St W",
+        "longitude": -79.3939202573639,
+        "latitude": 43.6493375976818
+    },
+    {
+        "placeID": 79,
+        "type": "Wayfinding structure",
+        "name": "765 Yonge St",
+        "longitude": -79.3867170555373,
+        "latitude": 43.6704276078705
+    },
+    {
+        "placeID": 80,
+        "type": "Wayfinding structure",
+        "name": "55 University Ave",
+        "longitude": -79.3841929319566,
+        "latitude": 43.6468966638463
+    },
+    {
+        "placeID": 81,
+        "type": "Wayfinding structure",
+        "name": "604 King St W",
+        "longitude": -79.4003107214393,
+        "latitude": 43.6444701265199
+    },
+    {
+        "placeID": 82,
+        "type": "Wayfinding structure",
+        "name": "1902 Avenue Rd",
+        "longitude": -79.4196224756001,
+        "latitude": 43.733063107716
+    },
+    {
+        "placeID": 83,
+        "type": "Wayfinding structure",
+        "name": "294 Bremner Blvd",
+        "longitude": -79.3868572433014,
+        "latitude": 43.6416522892086
+    },
+    {
+        "placeID": 84,
+        "type": "Wayfinding structure",
+        "name": "240 Front St W",
+        "longitude": -79.3868203463349,
+        "latitude": 43.6444637862299
+    },
+    {
+        "placeID": 85,
+        "type": "Wayfinding structure",
+        "name": "129 Peter St",
+        "longitude": -79.3932647622794,
+        "latitude": 43.6486175176075
+    },
+    {
+        "placeID": 86,
+        "type": "Wayfinding structure",
+        "name": "187",
+        "longitude": -79.3795631409196,
+        "latitude": 43.6425583416988
+    },
+    {
+        "placeID": 87,
+        "type": "Wayfinding structure",
+        "name": "600 Bloor St E",
+        "longitude": -79.3684379392243,
+        "latitude": 43.6739141111963
+    },
+    {
+        "placeID": 88,
+        "type": "Wayfinding structure",
+        "name": "2558 Danforth Ave",
+        "longitude": -79.3019004614396,
+        "latitude": 43.6884978010499
+    },
+    {
+        "placeID": 89,
+        "type": "Wayfinding structure",
+        "name": "4 Park Home Ave",
+        "longitude": -79.4131155275959,
+        "latitude": 43.7694689533316
+    },
+    {
+        "placeID": 90,
+        "type": "Wayfinding structure",
+        "name": "985 Woodbine Ave",
+        "longitude": -79.3129188226116,
+        "latitude": 43.6862638526681
+    },
+    {
+        "placeID": 91,
+        "type": "Wayfinding structure",
+        "name": "5150 Yonge St",
+        "longitude": -79.4129467912124,
+        "latitude": 43.7687293245564
+    },
+    {
+        "placeID": 92,
+        "type": "Wayfinding structure",
+        "name": "2 Bloor St E",
+        "longitude": -79.3860556632848,
+        "latitude": 43.6704747025669
+    },
+    {
+        "placeID": 93,
+        "type": "Wayfinding structure",
+        "name": "150 Borough Dr",
+        "longitude": -79.2569249372046,
+        "latitude": 43.7739446917325
+    },
+    {
+        "placeID": 94,
+        "type": "Wayfinding structure",
+        "name": "1275 McCowan Rd",
+        "longitude": -79.2521274401128,
+        "latitude": 43.7748122172551
+    },
+    {
+        "placeID": 95,
+        "type": "Wayfinding structure",
+        "name": "5 Christie St",
+        "longitude": -79.4185331866038,
+        "latitude": 43.6640238327502
+    },
+    {
+        "placeID": 96,
+        "type": "Wayfinding structure",
+        "name": "1215 McCowan Rd",
+        "longitude": -79.251318517652,
+        "latitude": 43.7724380236136
+    },
+    {
+        "placeID": 97,
+        "type": "Wayfinding structure",
+        "name": "355 Strathmore Blvd",
+        "longitude": -79.3230703597576,
+        "latitude": 43.6842732294491
+    },
+    {
+        "placeID": 98,
+        "type": "Wayfinding structure",
+        "name": "625 Bloor St E",
+        "longitude": -79.3707588138486,
+        "latitude": 43.6717684215914
+    },
+    {
+        "placeID": 99,
+        "type": "Wayfinding structure",
+        "name": "4900 Yonge St",
+        "longitude": -79.4116743986989,
+        "latitude": 43.7632855430307
+    },
+    {
+        "placeID": 100,
+        "type": "Wayfinding structure",
+        "name": "6A Spadina Rd",
+        "longitude": -79.4041775521748,
+        "latitude": 43.6672006949926
+    },
+    {
+        "placeID": 101,
+        "type": "Wayfinding structure",
+        "name": "5025 Yonge St",
+        "longitude": -79.4121030887771,
+        "latitude": 43.7668180623771
+    },
+    {
+        "placeID": 102,
+        "type": "Wayfinding structure",
+        "name": "90 Danforth Ave",
+        "longitude": -79.3588305438369,
+        "latitude": 43.6765116740223
+    },
+    {
+        "placeID": 103,
+        "type": "Wayfinding structure",
+        "name": "Ellesmere Rd at Borough Approach East",
+        "longitude": -79.2559874707084,
+        "latitude": 43.771445600137
+    },
+    {
+        "placeID": 104,
+        "type": "Wayfinding structure",
+        "name": "10 Linnsmore Cres",
+        "longitude": -79.3300821195748,
+        "latitude": 43.6825732948944
+    },
+    {
+        "placeID": 105,
+        "type": "Wayfinding structure",
+        "name": "160 Borough Dr",
+        "longitude": -79.2560951182967,
+        "latitude": 43.7723527243402
+    },
+    {
+        "placeID": 106,
+        "type": "Wayfinding structure",
+        "name": "77 Town Centre Crt",
+        "longitude": -79.252589943987,
+        "latitude": 43.7744476912109
+    },
+    {
+        "placeID": 107,
+        "type": "Wayfinding structure",
+        "name": "717 Pape Ave",
+        "longitude": -79.3448527999376,
+        "latitude": 43.679136568958
+    },
+    {
+        "placeID": 108,
+        "type": "Wayfinding structure",
+        "name": "250 Bloor St E",
+        "longitude": -79.3807654073655,
+        "latitude": 43.6716461494876
+    },
+    {
+        "placeID": 109,
+        "type": "Wayfinding structure",
+        "name": "1020 Yonge St",
+        "longitude": -79.3895605631307,
+        "latitude": 43.6768002221954
+    },
+    {
+        "placeID": 110,
+        "type": "Wayfinding structure",
+        "name": "11 St Clair Ave E",
+        "longitude": -79.3932910438152,
+        "latitude": 43.6881784776289
+    },
+    {
+        "placeID": 111,
+        "type": "Wayfinding structure",
+        "name": "12 Shaftesbury Ave",
+        "longitude": -79.3913760823945,
+        "latitude": 43.6820636532628
+    },
+    {
+        "placeID": 112,
+        "type": "Wayfinding structure",
+        "name": "396 St Clair Ave W",
+        "longitude": -79.4153593341072,
+        "latitude": 43.6838695353224
+    },
+    {
+        "placeID": 113,
+        "type": "Wayfinding structure",
+        "name": "131 Glen Manor Dr",
+        "longitude": -79.292952233254,
+        "latitude": 43.6716028818004
+    },
+    {
+        "placeID": 114,
+        "type": "Wayfinding structure",
+        "name": "611 King St E",
+        "longitude": -79.3559215441279,
+        "latitude": 43.6569062802401
+    },
+    {
+        "placeID": 115,
+        "type": "Wayfinding structure",
+        "name": "245 Main St",
+        "longitude": -79.3011372655933,
+        "latitude": 43.6869217974925
+    },
+    {
+        "placeID": 116,
+        "type": "Wayfinding structure",
+        "name": "60 Simcoe St",
+        "longitude": -79.3862284830746,
+        "latitude": 43.6472806177678
+    },
+    {
+        "placeID": 117,
+        "type": "Wayfinding structure",
+        "name": "344 Queen St E",
+        "longitude": -79.3646817523588,
+        "latitude": 43.6556165965701
+    },
+    {
+        "placeID": 118,
+        "type": "Wayfinding structure",
+        "name": "203 Queens Quay W",
+        "longitude": -79.380405647978,
+        "latitude": 43.63980362631
+    },
+    {
+        "placeID": 119,
+        "type": "Wayfinding structure",
+        "name": "55 Harbord St",
+        "longitude": -79.401788825223,
+        "latitude": 43.6630564142545
+    },
+    {
+        "placeID": 120,
+        "type": "Wayfinding structure",
+        "name": "2440 Bloor St W",
+        "longitude": -79.4844281441273,
+        "latitude": 43.6494835825286
+    },
+    {
+        "placeID": 121,
+        "type": "Wayfinding structure",
+        "name": "153 Mc Caul St",
+        "longitude": -79.3919016965272,
+        "latitude": 43.6557122321195
+    },
+    {
+        "placeID": 122,
+        "type": "Wayfinding structure",
+        "name": "1209 King St W",
+        "longitude": -79.4271948279788,
+        "latitude": 43.6388428569952
+    },
+    {
+        "placeID": 123,
+        "type": "Wayfinding structure",
+        "name": "2232 Queen St E",
+        "longitude": -79.2877556924537,
+        "latitude": 43.6726796761648
+    },
+    {
+        "placeID": 124,
+        "type": "Wayfinding structure",
+        "name": "130 Queen St E",
+        "longitude": -79.37295993235,
+        "latitude": 43.6538581042145
+    },
+    {
+        "placeID": 125,
+        "type": "Wayfinding structure",
+        "name": "1939 Queen St E",
+        "longitude": -79.3037372877937,
+        "latitude": 43.6690440984934
+    },
+    {
+        "placeID": 126,
+        "type": "Wayfinding structure",
+        "name": "968 Kingston Rd",
+        "longitude": -79.2869307822022,
+        "latitude": 43.6806322631518
+    },
+    {
+        "placeID": 127,
+        "type": "Wayfinding structure",
+        "name": "441 Queens Quay W",
+        "longitude": -79.3920851787669,
+        "latitude": 43.6375101572113
+    },
+    {
+        "placeID": 128,
+        "type": "Wayfinding structure",
+        "name": "3010 Bloor St W",
+        "longitude": -79.5111032611928,
+        "latitude": 43.6475191150734
+    },
+    {
+        "placeID": 129,
+        "type": "Wayfinding structure",
+        "name": "3300 Bloor St W",
+        "longitude": -79.5233933327999,
+        "latitude": 43.6449541662324
+    },
+    {
+        "placeID": 130,
+        "type": "Wayfinding structure",
+        "name": "1347 St Clair Ave W",
+        "longitude": -79.4503188016028,
+        "latitude": 43.6762160317828
+    },
+    {
+        "placeID": 131,
+        "type": "Wayfinding structure",
+        "name": "1801",
+        "longitude": -79.3958894006789,
+        "latitude": 43.6956168254741
+    },
+    {
+        "placeID": 132,
+        "type": "Wayfinding structure",
+        "name": "119",
+        "longitude": -79.3954159883961,
+        "latitude": 43.6469432088001
+    },
+    {
+        "placeID": 133,
+        "type": "Wayfinding structure",
+        "name": "394",
+        "longitude": -79.3817247160447,
+        "latitude": 43.6517268600661
+    },
+    {
+        "placeID": 134,
+        "type": "Wayfinding structure",
+        "name": "22 The Esplanade",
+        "longitude": -79.3751908732538,
+        "latitude": 43.6464809312643
+    },
+    {
+        "placeID": 135,
+        "type": "Wayfinding structure",
+        "name": "200 King St W",
+        "longitude": -79.3860254395258,
+        "latitude": 43.6475289612051
+    },
+    {
+        "placeID": 136,
+        "type": "Wayfinding structure",
+        "name": "109 Adelaide St W",
+        "longitude": -79.3838736524788,
+        "latitude": 43.6491165444293
+    },
+    {
+        "placeID": 137,
+        "type": "Wayfinding structure",
+        "name": "1 University Ave",
+        "longitude": -79.3827963401967,
+        "latitude": 43.6455848125067
+    },
+    {
+        "placeID": 138,
+        "type": "Wayfinding structure",
+        "name": "160 Gerrard St E",
+        "longitude": -79.3725048280165,
+        "latitude": 43.6612532948157
+    },
+    {
+        "placeID": 139,
+        "type": "Wayfinding structure",
+        "name": "507 Dundas St W",
+        "longitude": -79.3981385226219,
+        "latitude": 43.6527244421946
+    },
+    {
+        "placeID": 140,
+        "type": "Wayfinding structure",
+        "name": "278 Jarvis St",
+        "longitude": -79.3760688740547,
+        "latitude": 43.660516583723
+    },
+    {
+        "placeID": 141,
+        "type": "Wayfinding structure",
+        "name": "128 River St",
+        "longitude": -79.3581828564364,
+        "latitude": 43.6610155041994
+    },
+    {
+        "placeID": 142,
+        "type": "Wayfinding structure",
+        "name": "955 Yonge St",
+        "longitude": -79.3888844475516,
+        "latitude": 43.6757363851178
+    },
+    {
+        "placeID": 143,
+        "type": "Wayfinding structure",
+        "name": "325 Parliament St",
+        "longitude": -79.3659493342394,
+        "latitude": 43.6595683139067
+    },
+    {
+        "placeID": 144,
+        "type": "Wayfinding structure",
+        "name": "370 Broadview Ave",
+        "longitude": -79.3528379320141,
+        "latitude": 43.6656967178857
+    },
+    {
+        "placeID": 145,
+        "type": "Wayfinding structure",
+        "name": "140 Sherbourne St",
+        "longitude": -79.3696807233392,
+        "latitude": 43.6545386328668
+    },
+    {
+        "placeID": 146,
+        "type": "Wayfinding structure",
+        "name": "258",
+        "longitude": -79.363526518477,
+        "latitude": 43.6499168066197
+    },
+    {
+        "placeID": 147,
+        "type": "Wayfinding structure",
+        "name": "21 Queens Quay W",
+        "longitude": -79.3765040832624,
+        "latitude": 43.6411357413216
+    },
+    {
+        "placeID": 148,
+        "type": "Wayfinding structure",
+        "name": "8 Yonge St",
+        "longitude": -79.3748872318256,
+        "latitude": 43.6420827550491
+    },
+    {
+        "placeID": 149,
+        "type": "Wayfinding structure",
+        "name": "302 Dundas St E",
+        "longitude": -79.3707062776293,
+        "latitude": 43.6584486878811
+    },
+    {
+        "placeID": 150,
+        "type": "Wayfinding structure",
+        "name": "56 Queen St E",
+        "longitude": -79.3759609350342,
+        "latitude": 43.6531909789503
+    },
+    {
+        "placeID": 151,
+        "type": "Wayfinding structure",
+        "name": "189 The Esplanade",
+        "longitude": -79.3671062792701,
+        "latitude": 43.6489779335503
+    },
+    {
+        "placeID": 152,
+        "type": "Wayfinding structure",
+        "name": "3060 Yonge St",
+        "longitude": -79.4024508410885,
+        "latitude": 43.7251472332917
+    },
+    {
+        "placeID": 153,
+        "type": "Wayfinding structure",
+        "name": "502 Front St E",
+        "longitude": -79.3539269822206,
+        "latitude": 43.653720582804
+    },
+    {
+        "placeID": 154,
+        "type": "Wayfinding structure",
+        "name": "92",
+        "longitude": -79.4116062733247,
+        "latitude": 43.6406530160078
+    },
+    {
+        "placeID": 155,
+        "type": "Wayfinding structure",
+        "name": "429 College St",
+        "longitude": -79.4072833764011,
+        "latitude": 43.6564487941139
+    },
+    {
+        "placeID": 156,
+        "type": "Wayfinding structure",
+        "name": "700 University Ave",
+        "longitude": -79.3905720554786,
+        "latitude": 43.6595591337786
+    },
+    {
+        "placeID": 157,
+        "type": "Wayfinding structure",
+        "name": "777 Bay St",
+        "longitude": -79.3855146925293,
+        "latitude": 43.6602785909693
+    },
+    {
+        "placeID": 158,
+        "type": "Wayfinding structure",
+        "name": "2063 Yonge St",
+        "longitude": -79.3972863656342,
+        "latitude": 43.7021999090915
+    },
+    {
+        "placeID": 159,
+        "type": "Wayfinding structure",
+        "name": "1075 Bay St",
+        "longitude": -79.3882465110747,
+        "latitude": 43.6671694702004
+    },
+    {
+        "placeID": 160,
+        "type": "Wayfinding structure",
+        "name": "1300 Eglinton Ave W",
+        "longitude": -79.435362088567,
+        "latitude": 43.6989947463208
+    },
+    {
+        "placeID": 161,
+        "type": "Wayfinding structure",
+        "name": "120 East Liberty St",
+        "longitude": -79.4174021768575,
+        "latitude": 43.6387518400103
+    },
+    {
+        "placeID": 162,
+        "type": "Wayfinding structure",
+        "name": "2340 Dundas St W",
+        "longitude": -79.4521715266093,
+        "latitude": 43.656463084241
+    },
+    {
+        "placeID": 163,
+        "type": "Wayfinding structure",
+        "name": "2337 Dundas St W",
+        "longitude": -79.4524921869469,
+        "latitude": 43.6561125432894
+    },
+    {
+        "placeID": 164,
+        "type": "Wayfinding structure",
+        "name": "2365 Dundas St W",
+        "longitude": -79.4527156498447,
+        "latitude": 43.6569735972005
+    },
+    {
+        "placeID": 165,
+        "type": "Wayfinding structure",
+        "name": "Bloor St West at High Park Ave",
+        "longitude": -79.4649986610713,
+        "latitude": 43.6535219302848
+    },
+    {
+        "placeID": 166,
+        "type": "Wayfinding structure",
+        "name": "123 Queen St W",
+        "longitude": -79.3847034302447,
+        "latitude": 43.6511669941933
+    },
+    {
+        "placeID": 167,
+        "type": "Wayfinding structure",
+        "name": "145 Richmond St W",
+        "longitude": -79.3859069154597,
+        "latitude": 43.6500012383454
+    },
+    {
+        "placeID": 168,
+        "type": "Wayfinding structure",
+        "name": "160 Adelaide St W",
+        "longitude": -79.3852391480488,
+        "latitude": 43.6490021028679
+    },
+    {
+        "placeID": 169,
+        "type": "Wayfinding structure",
+        "name": "18 Yonge St",
+        "longitude": -79.3760920706037,
+        "latitude": 43.6442849296966
+    },
+    {
+        "placeID": 170,
+        "type": "Wayfinding structure",
+        "name": "151 Yonge St",
+        "longitude": -79.3788130867714,
+        "latitude": 43.6515661697013
+    },
+    {
+        "placeID": 171,
+        "type": "Wayfinding structure",
+        "name": "55 Front St W",
+        "longitude": -79.379349307896,
+        "latitude": 43.6458634553189
+    },
+    {
+        "placeID": 172,
+        "type": "Wayfinding structure",
+        "name": "15",
+        "longitude": -79.4274637179366,
+        "latitude": 43.6316111982702
+    },
+    {
+        "placeID": 173,
+        "type": "Wayfinding structure",
+        "name": "14 Saskatchewan Rd",
+        "longitude": -79.4247230540896,
+        "latitude": 43.6327890765607
+    },
+    {
+        "placeID": 174,
+        "type": "Wayfinding structure",
+        "name": "210 Princes Blvd",
+        "longitude": -79.42239478992,
+        "latitude": 43.6328209418822
+    },
+    {
+        "placeID": 175,
+        "type": "Wayfinding structure",
+        "name": "JHJJ+CF",
+        "longitude": -79.4188235248632,
+        "latitude": 43.6310745324435
+    },
+    {
+        "placeID": 176,
+        "type": "Wayfinding structure",
+        "name": "60 Manitoba Dr",
+        "longitude": -79.4163263299023,
+        "latitude": 43.6360253673234
+    },
+    {
+        "placeID": 177,
+        "type": "Wayfinding structure",
+        "name": "483 Bay St",
+        "longitude": -79.3825145971857,
+        "latitude": 43.6530852232675
+    },
+    {
+        "placeID": 178,
+        "type": "Wayfinding structure",
+        "name": "211 Yonge St",
+        "longitude": -79.3797335537173,
+        "latitude": 43.6537690086705
+    },
+    {
+        "placeID": 179,
+        "type": "Wayfinding structure",
+        "name": "2 Queen St E",
+        "longitude": -79.3782171464208,
+        "latitude": 43.6527940416522
+    },
+    {
+        "placeID": 180,
+        "type": "Wayfinding structure",
+        "name": "1 Dundas St E",
+        "longitude": -79.3806874548916,
+        "latitude": 43.6563074986674
+    },
+    {
+        "placeID": 181,
+        "type": "Wayfinding structure",
+        "name": "2 Elm St",
+        "longitude": -79.3817912778087,
+        "latitude": 43.6579127579591
+    },
+    {
+        "placeID": 182,
+        "type": "Wayfinding structure",
+        "name": "382 Yonge St",
+        "longitude": -79.3822840529411,
+        "latitude": 43.6592072371623
+    },
+    {
+        "placeID": 183,
+        "type": "Wayfinding structure",
+        "name": "60 Carlton St",
+        "longitude": -79.3795849479841,
+        "latitude": 43.6619087717299
+    },
+    {
+        "placeID": 184,
+        "type": "Wayfinding structure",
+        "name": "340 Church St",
+        "longitude": -79.378612052541,
+        "latitude": 43.6597187959689
+    },
+    {
+        "placeID": 185,
+        "type": "Wayfinding structure",
+        "name": "74 The Esplanade",
+        "longitude": -79.3731081599828,
+        "latitude": 43.6474076783565
+    },
+    {
+        "placeID": 186,
+        "type": "Wayfinding structure",
+        "name": "70 Jarvis St",
+        "longitude": -79.3724353677419,
+        "latitude": 43.6514095110946
+    },
+    {
+        "placeID": 187,
+        "type": "Wayfinding structure",
+        "name": "163 King St E",
+        "longitude": -79.371703585907,
+        "latitude": 43.6504316306017
+    },
+    {
+        "placeID": 188,
+        "type": "Wayfinding structure",
+        "name": "95 Front St E",
+        "longitude": -79.3716059700388,
+        "latitude": 43.6492469868964
+    },
+    {
+        "placeID": 189,
+        "type": "Wayfinding structure",
+        "name": "393 King St E",
+        "longitude": -79.3630382580737,
+        "latitude": 43.6525577163933
+    },
+    {
+        "placeID": 190,
+        "type": "Wayfinding structure",
+        "name": "39A Parliament St",
+        "longitude": -79.3618089017613,
+        "latitude": 43.6496686909657
+    },
+    {
+        "placeID": 191,
+        "type": "Wayfinding structure",
+        "name": "21 Keele St",
+        "longitude": -79.460051298056,
+        "latitude": 43.6554505499314
+    },
+    {
+        "placeID": 192,
+        "type": "Wayfinding structure",
+        "name": "1816 Lake Shore Blvd East",
+        "longitude": -79.3061969252375,
+        "latitude": 43.6642739609272
+    },
+    {
+        "placeID": 193,
+        "type": "Wayfinding structure",
+        "name": "15 Hubbard Blvd",
+        "longitude": -79.2932047475821,
+        "latitude": 43.6678734946621
+    },
+    {
+        "placeID": 194,
+        "type": "Wayfinding structure",
+        "name": "2266 Queen St E",
+        "longitude": -79.2854182659011,
+        "latitude": 43.6731804845363
+    },
+    {
+        "placeID": 195,
+        "type": "Wayfinding structure",
+        "name": "2075 Queen St E",
+        "longitude": -79.299833236093,
+        "latitude": 43.6699920728336
+    },
+    {
+        "placeID": 196,
+        "type": "Wayfinding structure",
+        "name": "1400 Bloor St W",
+        "longitude": -79.447487484313,
+        "latitude": 43.6574211575793
+    },
+    {
+        "placeID": 197,
+        "type": "Wayfinding structure",
+        "name": "1293 Bloor St W",
+        "longitude": -79.4430854605975,
+        "latitude": 43.6581986395301
+    },
+    {
+        "placeID": 198,
+        "type": "Wayfinding structure",
+        "name": "695 Lansdowne Ave",
+        "longitude": -79.442850872944,
+        "latitude": 43.6590113262234
+    },
+    {
+        "placeID": 199,
+        "type": "Wayfinding structure",
+        "name": "2215 Roncesvalles Ave",
+        "longitude": -79.4518647229854,
+        "latitude": 43.653756473446
+    },
+    {
+        "placeID": 200,
+        "type": "Wayfinding structure",
+        "name": "1985 Dundas St W",
+        "longitude": -79.4456509802014,
+        "latitude": 43.6512225603073
+    },
+    {
+        "placeID": 201,
+        "type": "Wayfinding structure",
+        "name": "100 Manitoba Dr",
+        "longitude": -79.4186925548601,
+        "latitude": 43.6355734590243
+    },
+    {
+        "placeID": 202,
+        "type": "Wayfinding structure",
+        "name": "10 Nova Scotia Ave",
+        "longitude": -79.41839498384,
+        "latitude": 43.6345682063448
+    },
+    {
+        "placeID": 203,
+        "type": "Wayfinding structure",
+        "name": "170 Princes Blvd",
+        "longitude": -79.416988455409,
+        "latitude": 43.6328399354655
+    },
+    {
+        "placeID": 204,
+        "type": "Wayfinding structure",
+        "name": "100 Princes Blvd",
+        "longitude": -79.4152374749645,
+        "latitude": 43.6335497962513
+    },
+    {
+        "placeID": 205,
+        "type": "Wayfinding structure",
+        "name": "19 Nunavut Rd",
+        "longitude": -79.4157688669853,
+        "latitude": 43.6346670000536
+    },
+    {
+        "placeID": 206,
+        "type": "Wayfinding structure",
+        "name": "Exhibition Loop",
+        "longitude": -79.4177871008745,
+        "latitude": 43.6355984473865
+    },
+    {
+        "placeID": 207,
+        "type": "Wayfinding structure",
+        "name": "Fleet St at Strachan Ave",
+        "longitude": -79.4104488760273,
+        "latitude": 43.6359841076429
+    },
+    {
+        "placeID": 208,
+        "type": "Wayfinding structure",
+        "name": "589 King St W",
+        "longitude": -79.4002915258878,
+        "latitude": 43.6443248186641
+    },
+    {
+        "placeID": 209,
+        "type": "Wayfinding structure",
+        "name": "540 Front St W",
+        "longitude": -79.399057231888,
+        "latitude": 43.6414195326088
+    },
+    {
+        "placeID": 210,
+        "type": "Wayfinding structure",
+        "name": "51 Bathurst St",
+        "longitude": -79.4020692522532,
+        "latitude": 43.6427731867569
+    },
+    {
+        "placeID": 211,
+        "type": "Wayfinding structure",
+        "name": "665 King St W",
+        "longitude": -79.4023807958314,
+        "latitude": 43.6439088142476
+    },
+    {
+        "placeID": 212,
+        "type": "Wayfinding structure",
+        "name": "845 King St W",
+        "longitude": -79.4100134585031,
+        "latitude": 43.6423330050762
+    },
+    {
+        "placeID": 213,
+        "type": "Wayfinding structure",
+        "name": "905 King St W",
+        "longitude": -79.4122712561342,
+        "latitude": 43.6419032431851
+    },
+    {
+        "placeID": 214,
+        "type": "Wayfinding structure",
+        "name": "1005 King St W",
+        "longitude": -79.4147771534371,
+        "latitude": 43.6414019169403
+    },
+    {
+        "placeID": 215,
+        "type": "Wayfinding structure",
+        "name": "694 King St W",
+        "longitude": -79.4028860639421,
+        "latitude": 43.6440231029381
+    },
+    {
+        "placeID": 216,
+        "type": "Wayfinding structure",
+        "name": "18 York St",
+        "longitude": -79.381679957736,
+        "latitude": 43.6430969530221
+    },
+    {
+        "placeID": 217,
+        "type": "Wayfinding structure",
+        "name": "75 Lower Simcoe St",
+        "longitude": -79.3839417533801,
+        "latitude": 43.6425644551145
+    },
+    {
+        "placeID": 218,
+        "type": "Wayfinding structure",
+        "name": "300 Bremner Blvd",
+        "longitude": -79.3878226166776,
+        "latitude": 43.6409152268687
+    },
+    {
+        "placeID": 219,
+        "type": "Wayfinding structure",
+        "name": "300 Bremner Blvd",
+        "longitude": -79.3900183052607,
+        "latitude": 43.6406178395991
+    },
+    {
+        "placeID": 220,
+        "type": "Wayfinding structure",
+        "name": "397 Front St W",
+        "longitude": -79.3935361391242,
+        "latitude": 43.6427501659426
+    },
+    {
+        "placeID": 221,
+        "type": "Wayfinding structure",
+        "name": "20 John St",
+        "longitude": -79.3889521638779,
+        "latitude": 43.6440094985018
+    },
+    {
+        "placeID": 222,
+        "type": "Wayfinding structure",
+        "name": "55 Simcoe St",
+        "longitude": -79.3853851945525,
+        "latitude": 43.6459282922304
+    },
+    {
+        "placeID": 223,
+        "type": "Wayfinding structure",
+        "name": "460 King St W",
+        "longitude": -79.3953650990314,
+        "latitude": 43.6454675141021
+    },
+    {
+        "placeID": 224,
+        "type": "Wayfinding structure",
+        "name": "415 King St W",
+        "longitude": -79.3946432213734,
+        "latitude": 43.645459658987
+    },
+    {
+        "placeID": 225,
+        "type": "Wayfinding structure",
+        "name": "146 Spadina Ave",
+        "longitude": -79.3962751918115,
+        "latitude": 43.6480609530264
+    },
+    {
+        "placeID": 226,
+        "type": "Wayfinding structure",
+        "name": "1 Blue Jays Way",
+        "longitude": -79.3873560918701,
+        "latitude": 43.6412559022391
+    },
+    {
+        "placeID": 227,
+        "type": "Wayfinding structure",
+        "name": "50 Bay St",
+        "longitude": -79.3785291407316,
+        "latitude": 43.6443002371997
+    },
+    {
+        "placeID": 228,
+        "type": "Wayfinding structure",
+        "name": "4881 Yonge St",
+        "longitude": -79.4110977080003,
+        "latitude": 43.7627909219909
+    },
+    {
+        "placeID": 229,
+        "type": "Wayfinding structure",
+        "name": "421 Eglinton Ave W",
+        "longitude": -79.411373092568,
+        "latitude": 43.7039168111551
+    },
+    {
+        "placeID": 230,
+        "type": "Wayfinding structure",
+        "name": "531 Bay St",
+        "longitude": -79.3834550633984,
+        "latitude": 43.6556766226304
+    },
+    {
+        "placeID": 231,
+        "type": "Wayfinding structure",
+        "name": "1303 Yonge St",
+        "longitude": -79.3925477014992,
+        "latitude": 43.6845861171163
+    },
+    {
+        "placeID": 232,
+        "type": "Wayfinding structure",
+        "name": "2384 Yonge St",
+        "longitude": -79.3990228795258,
+        "latitude": 43.7093778832686
+    },
+    {
+        "placeID": 233,
+        "type": "Wayfinding structure",
+        "name": "700 St Clair Ave W",
+        "longitude": -79.4264245742114,
+        "latitude": 43.6816637169515
+    },
+    {
+        "placeID": 234,
+        "type": "Wayfinding structure",
+        "name": "1151 Eastern Ave",
+        "longitude": -79.3144403985828,
+        "latitude": 43.6624861206139
+    },
+    {
+        "placeID": 235,
+        "type": "Wayfinding structure",
+        "name": "1752 Bayview Ave",
+        "longitude": -79.3772089662481,
+        "latitude": 43.7108299396351
+    },
+    {
+        "placeID": 236,
+        "type": "Wayfinding structure",
+        "name": "147 Laird Dr",
+        "longitude": -79.362850844064,
+        "latitude": 43.7091493517292
+    },
+    {
+        "placeID": 237,
+        "type": "Wayfinding structure",
+        "name": "839 Yonge St",
+        "longitude": -79.3880625336854,
+        "latitude": 43.673614250651
+    },
+    {
+        "placeID": 238,
+        "type": "Wayfinding structure",
+        "name": "283 Spadina Ave",
+        "longitude": -79.3977894075245,
+        "latitude": 43.652798895849
+    },
+    {
+        "placeID": 239,
+        "type": "Wayfinding structure",
+        "name": "1258 Queen St W",
+        "longitude": -79.4288742249052,
+        "latitude": 43.6422380182544
+    },
+    {
+        "placeID": 240,
+        "type": "Wayfinding structure",
+        "name": "263 Dupont St",
+        "longitude": -79.4066875839652,
+        "latitude": 43.6748306499372
+    },
+    {
+        "placeID": 241,
+        "type": "Wayfinding structure",
+        "name": "120 Pearl St",
+        "longitude": -79.3861636360083,
+        "latitude": 43.6486677354525
+    },
+    {
+        "placeID": 242,
+        "type": "Wayfinding structure",
+        "name": "35 Quebec Ave",
+        "longitude": -79.4670551669396,
+        "latitude": 43.6538449520247
+    },
+    {
+        "placeID": 243,
+        "type": "Wayfinding structure",
+        "name": "2178 Bloor St W",
+        "longitude": -79.4738621414964,
+        "latitude": 43.6517648591388
+    },
+    {
+        "placeID": 244,
+        "type": "Wayfinding structure",
+        "name": "120 Wellington St W",
+        "longitude": -79.3831391210959,
+        "latitude": 43.6467132777644
+    },
+    {
+        "placeID": 245,
+        "type": "Wayfinding structure",
+        "name": "15 Dufferin St",
+        "longitude": -79.4252113330175,
+        "latitude": 43.6335407249079
+    },
+    {
+        "placeID": 246,
+        "type": "Wayfinding structure",
+        "name": "819",
+        "longitude": -79.4090343455036,
+        "latitude": 43.6345631124044
+    },
+    {
+        "placeID": 247,
+        "type": "Wayfinding structure",
+        "name": "341 Yonge St",
+        "longitude": -79.3811956756126,
+        "latitude": 43.6575090691158
+    },
+    {
+        "placeID": 248,
+        "type": "Wayfinding structure",
+        "name": "80 Adelaide St E",
+        "longitude": -79.3748900434891,
+        "latitude": 43.6513411041862
+    },
+    {
+        "placeID": 249,
+        "type": "Wayfinding structure",
+        "name": "269 Front St E",
+        "longitude": -79.3628081026821,
+        "latitude": 43.6514272119593
+    },
+    {
+        "placeID": 250,
+        "type": "Wayfinding structure",
+        "name": "1 Silver Birch Ave",
+        "longitude": -79.2842011707488,
+        "latitude": 43.6704187563565
+    },
+    {
+        "placeID": 251,
+        "type": "Wayfinding structure",
+        "name": "2340 Dundas St W",
+        "longitude": -79.4507463761387,
+        "latitude": 43.6567341938738
+    },
+    {
+        "placeID": 252,
+        "type": "Wayfinding structure",
+        "name": "2067 Dundas St W",
+        "longitude": -79.4479596569286,
+        "latitude": 43.6519860407334
+    },
+    {
+        "placeID": 253,
+        "type": "Wayfinding structure",
+        "name": "135 Princes Blvd",
+        "longitude": -79.4146070899901,
+        "latitude": 43.6318941967543
+    },
+    {
+        "placeID": 254,
+        "type": "Wayfinding structure",
+        "name": "522 King St W",
+        "longitude": -79.3974350123203,
+        "latitude": 43.6450480899161
+    },
+    {
+        "placeID": 255,
+        "type": "Wayfinding structure",
+        "name": "807 King St W",
+        "longitude": -79.4073939307293,
+        "latitude": 43.6428918516169
+    },
+    {
+        "placeID": 256,
+        "type": "Wayfinding structure",
+        "name": "11 Lower Simcoe St",
+        "longitude": -79.3832801389086,
+        "latitude": 43.6407895746551
+    },
+    {
+        "placeID": 257,
+        "type": "Wayfinding structure",
+        "name": "325 Front St W",
+        "longitude": -79.3909134628795,
+        "latitude": 43.6434064857606
+    },
+    {
+        "placeID": 258,
+        "type": "Wayfinding structure",
+        "name": "40",
+        "longitude": -79.3781280566533,
+        "latitude": 43.6431889511394
+    },
+    {
+        "placeID": 259,
+        "type": "Wayfinding structure",
+        "name": "4050 Yonge St",
+        "longitude": -79.4069834106941,
+        "latitude": 43.7445184662538
+    },
+    {
+        "placeID": 260,
+        "type": "Wayfinding structure",
+        "name": "200 Bay St",
+        "longitude": -79.3797019871908,
+        "latitude": 43.6471123975421
+    },
+    {
+        "placeID": 261,
+        "type": "Wayfinding structure",
+        "name": "665 Kingston Rd",
+        "longitude": -79.2977603494457,
+        "latitude": 43.6788749240344
+    },
+    {
+        "placeID": 262,
+        "type": "Wayfinding structure",
+        "name": "5607 Yonge St",
+        "longitude": -79.4154372339808,
+        "latitude": 43.7799942078374
+    },
+    {
+        "placeID": 263,
+        "type": "Wayfinding structure",
+        "name": "105 Princes' Blvd",
+        "longitude": -79.4114948186657,
+        "latitude": 43.6340769796228
+    },
+    {
+        "placeID": 264,
+        "type": "Wayfinding structure",
+        "name": "100 Princes Blvd",
+        "longitude": -79.4100801808875,
+        "latitude": 43.6347611241695
+    },
+    {
+        "placeID": 265,
+        "type": "Wayfinding structure",
+        "name": "901 King St W",
+        "longitude": -79.4115769344582,
+        "latitude": 43.6420481524444
+    },
+    {
+        "placeID": 266,
+        "type": "Wayfinding structure",
+        "name": "1541 Avenue Rd",
+        "longitude": -79.4158971976822,
+        "latitude": 43.723310925608
+    },
+    {
+        "placeID": 267,
+        "type": "Wayfinding structure",
+        "name": "711 Bay St",
+        "longitude": -79.3848371380431,
+        "latitude": 43.6587199664222
+    },
+    {
+        "placeID": 268,
+        "type": "Wayfinding structure",
+        "name": "3224 Yonge St",
+        "longitude": -79.4033235118873,
+        "latitude": 43.7289066403222
+    },
+    {
+        "placeID": 269,
+        "type": "Wayfinding structure",
+        "name": "327 Bathurst St",
+        "longitude": -79.4057473361489,
+        "latitude": 43.651971911399
+    },
+    {
+        "placeID": 270,
+        "type": "Wayfinding structure",
+        "name": "4799 Yonge St",
+        "longitude": -79.4105973733097,
+        "latitude": 43.7614519116217
+    },
+    {
+        "placeID": 271,
+        "type": "Wayfinding structure",
+        "name": "37 Queen St E",
+        "longitude": -79.3776064964737,
+        "latitude": 43.652651816142
+    },
+    {
+        "placeID": 272,
+        "type": "Wayfinding structure",
+        "name": "2459 Queen St E",
+        "longitude": -79.2835673296675,
+        "latitude": 43.6733845925097
+    },
+    {
+        "placeID": 273,
+        "type": "Wayfinding structure",
+        "name": "1 Front St W",
+        "longitude": -79.3770738401928,
+        "latitude": 43.6466251391423
+    },
+    {
+        "placeID": 274,
+        "type": "Wayfinding structure",
+        "name": "77",
+        "longitude": -79.3003529161555,
+        "latitude": 43.6658254014142
+    },
+    {
+        "placeID": 275,
+        "type": "Wayfinding structure",
+        "name": "2202 Dundas St W",
+        "longitude": -79.4513108313453,
+        "latitude": 43.6536737594495
+    },
+    {
+        "placeID": 276,
+        "type": "Wayfinding structure",
+        "name": "200 Front St W",
+        "longitude": -79.3852669101443,
+        "latitude": 43.6447978267441
+    },
+    {
+        "placeID": 277,
+        "type": "Wayfinding structure",
+        "name": "3319 Yonge St",
+        "longitude": -79.403573506309,
+        "latitude": 43.7307468749765
+    },
+    {
+        "placeID": 278,
+        "type": "Wayfinding structure",
+        "name": "24 St Clair Ave W",
+        "longitude": -79.3947332570528,
+        "latitude": 43.6880656153529
+    },
+    {
+        "placeID": 279,
+        "type": "Wayfinding structure",
+        "name": "150 King St W",
+        "longitude": -79.3847304560474,
+        "latitude": 43.6478217463388
+    },
+    {
+        "placeID": 280,
+        "type": "Wayfinding structure",
+        "name": "317 Dundas St W",
+        "longitude": -79.3914905707476,
+        "latitude": 43.654153429307
+    },
+    {
+        "placeID": 281,
+        "type": "Wayfinding structure",
+        "name": "195 The Donway W",
+        "longitude": -79.3456254000031,
+        "latitude": 43.7366081064437
+    },
+    {
+        "placeID": 282,
+        "type": "Wayfinding structure",
+        "name": "222 Bremner Blvd",
+        "longitude": -79.3842509359433,
+        "latitude": 43.6424336995989
+    },
+    {
+        "placeID": 283,
+        "type": "Wayfinding structure",
+        "name": "627 Queens Quay W",
+        "longitude": -79.3980809402689,
+        "latitude": 43.6356694313851
+    },
+    {
+        "placeID": 284,
+        "type": "Wayfinding structure",
+        "name": "101 Spadina Ave",
+        "longitude": -79.3952095295924,
+        "latitude": 43.6464190231875
+    },
+    {
+        "placeID": 285,
+        "type": "Wayfinding structure",
+        "name": "260 Church St",
+        "longitude": -79.3772971044477,
+        "latitude": 43.6563962816645
+    },
+    {
+        "placeID": 286,
+        "type": "Wayfinding structure",
+        "name": "725 King St W",
+        "longitude": -79.4050112195026,
+        "latitude": 43.643375655639
+    },
+    {
+        "placeID": 287,
+        "type": "Wayfinding structure",
+        "name": "55 Front St W",
+        "longitude": -79.3788312950211,
+        "latitude": 43.6459497526204
+    },
+    {
+        "placeID": 288,
+        "type": "Wayfinding structure",
+        "name": "145 Queen St W",
+        "longitude": -79.3860308565994,
+        "latitude": 43.6508856376157
+    },
+    {
+        "placeID": 289,
+        "type": "Wayfinding structure",
+        "name": "6 Queen's Park Cres W",
+        "longitude": -79.3915635293092,
+        "latitude": 43.6606914036375
+    },
+    {
+        "placeID": 290,
+        "type": "Wayfinding structure",
+        "name": "15 York St",
+        "longitude": -79.3813176809682,
+        "latitude": 43.6427477113035
+    },
+    {
+        "placeID": 291,
+        "type": "Wayfinding structure",
+        "name": "3410 Yonge St",
+        "longitude": -79.4044102708079,
+        "latitude": 43.733129474776
+    },
+    {
+        "placeID": 292,
+        "type": "Wayfinding structure",
+        "name": "355 King St W",
+        "longitude": -79.3920226163603,
+        "latitude": 43.6460216174999
+    },
+    {
+        "placeID": 293,
+        "type": "Wayfinding structure",
+        "name": "777 Victoria Park Ave",
+        "longitude": -79.2894737282744,
+        "latitude": 43.694476671062
+    },
+    {
+        "placeID": 294,
+        "type": "Wayfinding structure",
+        "name": "363 Dufferin St",
+        "longitude": -79.4282585388854,
+        "latitude": 43.6416508159347
+    },
+    {
+        "placeID": 295,
+        "type": "Wayfinding structure",
+        "name": "530 Lake Shore Blvd W",
+        "longitude": -79.399544836851,
+        "latitude": 43.6367120611357
+    },
+    {
+        "placeID": 296,
+        "type": "Wayfinding structure",
+        "name": "847 St Clair Ave W",
+        "longitude": -79.4322392901451,
+        "latitude": 43.6801793226863
+    },
+    {
+        "placeID": 297,
+        "type": "Wayfinding structure",
+        "name": "679 Queens Quay W",
+        "longitude": -79.40043893996,
+        "latitude": 43.6345087284306
+    },
+    {
+        "placeID": 298,
+        "type": "Wayfinding structure",
+        "name": "5697 Yonge St",
+        "longitude": -79.4158993585544,
+        "latitude": 43.7818977619154
+    },
+    {
+        "placeID": 299,
+        "type": "Wayfinding structure",
+        "name": "10 Dundas St E",
+        "longitude": -79.3804586756421,
+        "latitude": 43.6565028680111
+    },
+    {
+        "placeID": 300,
+        "type": "Wayfinding structure",
+        "name": "790 College St",
+        "longitude": -79.3861209497449,
+        "latitude": 43.6606834019034
+    },
+    {
+        "placeID": 301,
+        "type": "Wayfinding structure",
+        "name": "140 College St",
+        "longitude": -79.3907677209703,
+        "latitude": 43.6599457846903
+    },
+    {
+        "placeID": 302,
+        "type": "Wayfinding structure",
+        "name": "84 Queen's Park",
+        "longitude": -79.3935393739219,
+        "latitude": 43.6668982710979
+    },
+    {
+        "placeID": 303,
+        "type": "Wayfinding structure",
+        "name": "99 Wellesley St W",
+        "longitude": -79.3904772584649,
+        "latitude": 43.6634938630231
+    },
+    {
+        "placeID": 304,
+        "type": "Wayfinding structure",
+        "name": "20 Dundas St W",
+        "longitude": -79.3821181646622,
+        "latitude": 43.6560946068005
+    },
+    {
+        "placeID": 305,
+        "type": "Wayfinding structure",
+        "name": "5000 Yonge St",
+        "longitude": -79.4123465581065,
+        "latitude": 43.7664429002697
+    },
+    {
+        "placeID": 306,
+        "type": "Wayfinding structure",
+        "name": "3060 Danforth Ave",
+        "longitude": -79.2885508896274,
+        "latitude": 43.6913191600088
+    },
+    {
+        "placeID": 307,
+        "type": "Wayfinding structure",
+        "name": "892 Bloor St W",
+        "longitude": -79.4257957326122,
+        "latitude": 43.6621052812693
+    },
+    {
+        "placeID": 308,
+        "type": "Wayfinding structure",
+        "name": "2662 Bloor St W",
+        "longitude": -79.4950465620771,
+        "latitude": 43.6496217705679
+    },
+    {
+        "placeID": 309,
+        "type": "Wayfinding structure",
+        "name": "1709 St Clair Ave W",
+        "longitude": -79.4596825415583,
+        "latitude": 43.6741483066636
+    },
+    {
+        "placeID": 310,
+        "type": "Wayfinding structure",
+        "name": "1180 Bay St",
+        "longitude": -79.3894379981187,
+        "latitude": 43.6693607699547
+    },
+    {
+        "placeID": 311,
+        "type": "Wayfinding structure",
+        "name": "378 Queen St W",
+        "longitude": -79.3961591432599,
+        "latitude": 43.6489152120947
+    },
+    {
+        "placeID": 312,
+        "type": "Wayfinding structure",
+        "name": "106",
+        "longitude": -79.3636719126657,
+        "latitude": 43.6533547967856
+    },
+    {
+        "placeID": 313,
+        "type": "Wayfinding structure",
+        "name": "14 High Park Ave",
+        "longitude": -79.4655991558015,
+        "latitude": 43.6540877577689
+    },
+    {
+        "placeID": 314,
+        "type": "Wayfinding structure",
+        "name": "457 Yonge St",
+        "longitude": -79.3831354775801,
+        "latitude": 43.6617044896247
+    },
+    {
+        "placeID": 315,
+        "type": "Wayfinding structure",
+        "name": "74 Front St E",
+        "longitude": -79.3736570183697,
+        "latitude": 43.6487307756626
+    },
+    {
+        "placeID": 316,
+        "type": "Wayfinding structure",
+        "name": "251 King St E",
+        "longitude": -79.3680495212578,
+        "latitude": 43.6512437865159
+    },
+    {
+        "placeID": 317,
+        "type": "Wayfinding structure",
+        "name": "1881 Queen St E",
+        "longitude": -79.3055579273753,
+        "latitude": 43.6687322263383
+    },
+    {
+        "placeID": 318,
+        "type": "Wayfinding structure",
+        "name": "King St West at Sudbury St",
+        "longitude": -79.4171977564047,
+        "latitude": 43.6410920142418
+    },
+    {
+        "placeID": 319,
+        "type": "Wayfinding structure",
+        "name": "15 York St",
+        "longitude": -79.3809653914682,
+        "latitude": 43.6419940651163
+    },
+    {
+        "placeID": 320,
+        "type": "Wayfinding structure",
+        "name": "363 Bremner Blvd",
+        "longitude": -79.3926090125545,
+        "latitude": 43.6405759709236
+    },
+    {
+        "placeID": 321,
+        "type": "Wayfinding structure",
+        "name": "270 Wellington St W",
+        "longitude": -79.3917386908634,
+        "latitude": 43.6448913711959
+    },
+    {
+        "placeID": 322,
+        "type": "Wayfinding structure",
+        "name": "2179 Yonge St",
+        "longitude": -79.3979261253462,
+        "latitude": 43.7052968672065
+    },
+    {
+        "placeID": 323,
+        "type": "Wayfinding structure",
+        "name": "485 King St E",
+        "longitude": -79.3969731227763,
+        "latitude": 43.6449815235126
+    },
+    {
+        "placeID": 324,
+        "type": "Wayfinding structure",
+        "name": "10 Queen St W",
+        "longitude": -79.3800217374671,
+        "latitude": 43.6523442888052
+    },
+    {
+        "placeID": 325,
+        "type": "Wayfinding structure",
+        "name": "570 Bay St",
+        "longitude": -79.3837943383416,
+        "latitude": 43.6555667194611
+    },
+    {
+        "placeID": 326,
+        "type": "Wayfinding structure",
+        "name": "585 University Ave",
+        "longitude": -79.3893192897349,
+        "latitude": 43.6577652733507
+    },
+    {
+        "placeID": 327,
+        "type": "Wayfinding structure",
+        "name": "170 College St",
+        "longitude": -79.3935012636877,
+        "latitude": 43.6592838666788
+    },
+    {
+        "placeID": 328,
+        "type": "Wayfinding structure",
+        "name": "Toronto",
+        "longitude": -79.3926052765237,
+        "latitude": 43.6632936759574
+    },
+    {
+        "placeID": 329,
+        "type": "Wayfinding structure",
+        "name": "16 Wellesley St E",
+        "longitude": -79.3836809389373,
+        "latitude": 43.665173622225
+    },
+    {
+        "placeID": 330,
+        "type": "Wayfinding structure",
+        "name": "650 Danforth Ave",
+        "longitude": -79.3452129313481,
+        "latitude": 43.6789528542796
+    },
+    {
+        "placeID": 331,
+        "type": "Wayfinding structure",
+        "name": "101 College St",
+        "longitude": -79.3886072440297,
+        "latitude": 43.6601996440819
+    },
+    {
+        "placeID": 332,
+        "type": "Wayfinding structure",
+        "name": "103",
+        "longitude": -79.370727383314,
+        "latitude": 43.6481477944575
+    },
+    {
+        "placeID": 333,
+        "type": "Wayfinding structure",
+        "name": "483 Bay St",
+        "longitude": -79.3826677264802,
+        "latitude": 43.6533143300295
+    },
+    {
+        "placeID": 334,
+        "type": "Wayfinding structure",
+        "name": "627 Queens Quay W",
+        "longitude": -79.3974538432934,
+        "latitude": 43.6362361557681
+    },
+    {
+        "placeID": 335,
+        "type": "Wayfinding structure",
+        "name": "350 King St W",
+        "longitude": -79.3900324236495,
+        "latitude": 43.6465971670278
+    },
+    {
+        "placeID": 336,
+        "type": "Wayfinding structure",
+        "name": "480 St Clair Ave W",
+        "longitude": -79.4156385711994,
+        "latitude": 43.6837910343058
+    },
+    {
+        "placeID": 337,
+        "type": "Wayfinding structure",
+        "name": "2 Queen St E",
+        "longitude": -79.3784706197349,
+        "latitude": 43.6526571397299
+    },
+    {
+        "placeID": 338,
+        "type": "Wayfinding structure",
+        "name": "10 King St E",
+        "longitude": -79.3773613085725,
+        "latitude": 43.6493617905694
+    },
+    {
+        "placeID": 339,
+        "type": "Wayfinding structure",
+        "name": "25 Clarence Sq",
+        "longitude": -79.39431683007,
+        "latitude": 43.6442177448315
+    },
+    {
+        "placeID": 340,
+        "type": "Wayfinding structure",
+        "name": "719 Coxwell Ave",
+        "longitude": -79.3237432836542,
+        "latitude": 43.6840883650607
+    },
+    {
+        "placeID": 341,
+        "type": "Wayfinding structure",
+        "name": "30 Donlands Ave",
+        "longitude": -79.3376401769173,
+        "latitude": 43.6810382598775
+    },
+    {
+        "placeID": 342,
+        "type": "Wayfinding structure",
+        "name": "639 Yonge St",
+        "longitude": -79.3856139522089,
+        "latitude": 43.6676727592051
+    },
+    {
+        "placeID": 343,
+        "type": "Wayfinding structure",
+        "name": "4789 Yonge St",
+        "longitude": -79.4104419453246,
+        "latitude": 43.7602685930224
+    },
+    {
+        "placeID": 344,
+        "type": "Wayfinding structure",
+        "name": "532 Bloor St W",
+        "longitude": -79.411235718441,
+        "latitude": 43.6654631499475
+    },
+    {
+        "placeID": 345,
+        "type": "Wayfinding structure",
+        "name": "1140 Bloor St W",
+        "longitude": -79.4356692108764,
+        "latitude": 43.6598651406075
+    },
+    {
+        "placeID": 346,
+        "type": "Wayfinding structure",
+        "name": "27 Bathurst St",
+        "longitude": -79.4013459401618,
+        "latitude": 43.6409190288742
+    },
+    {
+        "placeID": 347,
+        "type": "Wayfinding structure",
+        "name": "2216 Bloor St W",
+        "longitude": -79.4760827381223,
+        "latitude": 43.6512620252873
+    },
+    {
+        "placeID": 348,
+        "type": "Wayfinding structure",
+        "name": "275 Queens Quay W",
+        "longitude": -79.3868045972803,
+        "latitude": 43.6386909372176
+    },
+    {
+        "placeID": 349,
+        "type": "Wayfinding structure",
+        "name": "24 Heath St E",
+        "longitude": -79.3947149719872,
+        "latitude": 43.6900944463933
+    },
+    {
+        "placeID": 350,
+        "type": "Wayfinding structure",
+        "name": "398 Spadina Ave",
+        "longitude": -79.3993476145289,
+        "latitude": 43.6556804688583
+    },
+    {
+        "placeID": 351,
+        "type": "Wayfinding structure",
+        "name": "222 Queens Quay W",
+        "longitude": -79.3829480823668,
+        "latitude": 43.6397327615931
+    },
+    {
+        "placeID": 352,
+        "type": "Wayfinding structure",
+        "name": "3885 Yonge St",
+        "longitude": -79.4059801276503,
+        "latitude": 43.7411382653764
+    },
+    {
+        "placeID": 353,
+        "type": "Wayfinding structure",
+        "name": "684 St Clair Ave W",
+        "longitude": -79.4257091663129,
+        "latitude": 43.6818173206874
+    },
+    {
+        "placeID": 354,
+        "type": "Wayfinding structure",
+        "name": "145 Cherry St",
+        "longitude": -79.358349492167,
+        "latitude": 43.6538178092016
+    },
+    {
+        "placeID": 355,
+        "type": "Wayfinding structure",
+        "name": "2100",
+        "longitude": -79.4702441506435,
+        "latitude": 43.6525420520666
+    },
+    {
+        "placeID": 356,
+        "type": "Wayfinding structure",
+        "name": "170 Princes' Blvd",
+        "longitude": -79.4192901614679,
+        "latitude": 43.6321625368678
+    },
+    {
+        "placeID": 357,
+        "type": "Wayfinding structure",
+        "name": "520 Wellington St W",
+        "longitude": -79.3994367304182,
+        "latitude": 43.6431525054447
+    },
+    {
+        "placeID": 358,
+        "type": "Wayfinding structure",
+        "name": "299 Bloor St W",
+        "longitude": -79.3969672565042,
+        "latitude": 43.6680269748903
+    },
+    {
+        "placeID": 359,
+        "type": "Wayfinding structure",
+        "name": "244 Bay St",
+        "longitude": -79.3802750168904,
+        "latitude": 43.6484576859536
+    },
+    {
+        "placeID": 360,
+        "type": "Wayfinding structure",
+        "name": "157",
+        "longitude": -79.3730309268291,
+        "latitude": 43.6528717425416
+    },
+    {
+        "placeID": 361,
+        "type": "Wayfinding structure",
+        "name": "129 College St",
+        "longitude": -79.3908810591696,
+        "latitude": 43.6596769327274
+    },
+    {
+        "placeID": 362,
+        "type": "Wayfinding structure",
+        "name": "325 Bloor St W",
+        "longitude": -79.4003468878824,
+        "latitude": 43.6673152562165
+    },
+    {
+        "placeID": 363,
+        "type": "Wayfinding structure",
+        "name": "1282 Dundas St W",
+        "longitude": -79.4253815443245,
+        "latitude": 43.6495206980026
+    },
+    {
+        "placeID": 364,
+        "type": "Wayfinding structure",
+        "name": "425 Bloor St E",
+        "longitude": -79.376605675631,
+        "latitude": 43.6722950871865
+    },
+    {
+        "placeID": 365,
+        "type": "Wayfinding structure",
+        "name": "70 East Liberty St",
+        "longitude": -79.4142035003285,
+        "latitude": 43.6386853222876
+    },
+    {
+        "placeID": 366,
+        "type": "Wayfinding structure",
+        "name": "100 Queen St W",
+        "longitude": -79.3825865745776,
+        "latitude": 43.6519017447855
+    },
+    {
+        "placeID": 367,
+        "type": "Wayfinding structure",
+        "name": "1813 Queen St E",
+        "longitude": -79.3079343064985,
+        "latitude": 43.6681703391738
+    },
+    {
+        "placeID": 368,
+        "type": "Wayfinding structure",
+        "name": "223 Eglinton Ave E",
+        "longitude": -79.3910732465645,
+        "latitude": 43.7081091914052
+    },
+    {
+        "placeID": 369,
+        "type": "Wayfinding structure",
+        "name": "4881 Yonge St",
+        "longitude": -79.4111815546878,
+        "latitude": 43.7631511965121
+    },
+    {
+        "placeID": 370,
+        "type": "Wayfinding structure",
+        "name": "Toronto",
+        "longitude": -79.2887445337262,
+        "latitude": 43.6692150523036
+    },
+    {
+        "placeID": 371,
+        "type": "Wayfinding structure",
+        "name": "1900 Dundas St W",
+        "longitude": -79.4430969902379,
+        "latitude": 43.6508730009034
+    },
+    {
+        "placeID": 372,
+        "type": "Wayfinding structure",
+        "name": "471 Jarvis St",
+        "longitude": -79.3776964634288,
+        "latitude": 43.6650444538078
+    },
+    {
+        "placeID": 373,
+        "type": "Wayfinding structure",
+        "name": "2263 Yonge St",
+        "longitude": -79.3979565518495,
+        "latitude": 43.7069046386675
+    },
+    {
+        "placeID": 374,
+        "type": "Wayfinding structure",
+        "name": "320 Danforth Ave",
+        "longitude": -79.3529607068881,
+        "latitude": 43.6774330842708
+    },
+    {
+        "placeID": 375,
+        "type": "Wayfinding structure",
+        "name": "383 Jarvis St",
+        "longitude": -79.3764583425614,
+        "latitude": 43.6623958285715
+    },
+    {
+        "placeID": 376,
+        "type": "Wayfinding structure",
+        "name": "132",
+        "longitude": -79.3829384133774,
+        "latitude": 43.6453255476507
+    },
+    {
+        "placeID": 377,
+        "type": "Wayfinding structure",
+        "name": "33 Yonge St",
+        "longitude": -79.3767590284696,
+        "latitude": 43.6470719430356
+    },
+    {
+        "placeID": 378,
+        "type": "Wayfinding structure",
+        "name": "5145 Yonge St",
+        "longitude": -79.4126374300238,
+        "latitude": 43.7692359985906
+    },
+    {
+        "placeID": 379,
+        "type": "Wayfinding structure",
+        "name": "245 Church St",
+        "longitude": -79.3776367294561,
+        "latitude": 43.6581790299052
+    },
+    {
+        "placeID": 380,
+        "type": "Wayfinding structure",
+        "name": "25 York St",
+        "longitude": -79.3805903568503,
+        "latitude": 43.6431915946657
+    },
+    {
+        "placeID": 381,
+        "type": "Wayfinding structure",
+        "name": "3409 Yonge St",
+        "longitude": -79.4040913761706,
+        "latitude": 43.7327415066532
+    },
+    {
+        "placeID": 382,
+        "type": "Wayfinding structure",
+        "name": "105 Queens Quay E",
+        "longitude": -79.3687099891507,
+        "latitude": 43.6439099560586
+    },
+    {
+        "placeID": 383,
+        "type": "Wayfinding structure",
+        "name": "54 Church St",
+        "longitude": -79.374715174967,
+        "latitude": 43.6499098134688
+    },
+    {
+        "placeID": 384,
+        "type": "Wayfinding structure",
+        "name": "243 Bay St",
+        "longitude": -79.3799057554188,
+        "latitude": 43.6486529972605
+    },
+    {
+        "placeID": 385,
+        "type": "Wayfinding structure",
+        "name": "75 Queen's Park",
+        "longitude": -79.3930163071556,
+        "latitude": 43.6663744991621
+    },
+    {
+        "placeID": 386,
+        "type": "Wayfinding structure",
+        "name": "139 St George St",
+        "longitude": -79.3999894521194,
+        "latitude": 43.6682068951648
+    },
+    {
+        "placeID": 387,
+        "type": "Wayfinding structure",
+        "name": "1234 Bay St",
+        "longitude": -79.389851388551,
+        "latitude": 43.6703255805062
+    }
+]
