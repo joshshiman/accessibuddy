@@ -1,0 +1,30 @@
+[
+    {
+        "placeID": 1,
+        "type": "Public washroom",
+        "name": "1681 Lake Shore Blvd E",
+        "longitude": -79.3094498094081,
+        "latitude": 43.6632980406659
+    },
+    {
+        "placeID": 2,
+        "type": "Public washroom",
+        "name": "1275 Lake Shore Blvd W",
+        "longitude": -79.4375305244122,
+        "latitude": 43.6334653707643
+    },
+    {
+        "placeID": 3,
+        "type": "Public washroom",
+        "name": "318 Queens Quay W",
+        "longitude": -79.3868628412625,
+        "latitude": 43.6390125331226
+    },
+    {
+        "placeID": 4,
+        "type": "Public washroom",
+        "name": "1 Strachan Ave",
+        "longitude": -79.4093814162204,
+        "latitude": 43.6359758223186
+    }
+]

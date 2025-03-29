@@ -39,34 +39,53 @@ class PointOfInterest:
             "latitude": self.latitude
         }
 
-stFurn = geopandas.read_file("./backend/sourcedData/streetFurninture.geojson")
 
-i = 0
-benchArray = []
+def createObj(fileName, category, outputName):
+    '''
+    Given a geoJSON file, convert it to clean readable JSON text
+    ---
+    fileName - path to the file (str)
+    pointData - type of street furniture (str)
+    outputName - name of output json file (str)
+    '''
+    fileName = geopandas.read_file(fileName)
+    i = 0
+    objectArray = []
 
-while i < len(stFurn):
-    placeID = int(stFurn.iloc[i, 0])
-    coordinates = [point.coords[0] for point in stFurn.iloc[i].geometry.geoms]
-    longitude, latitude = float(coordinates[0][0]), float(coordinates[0][1])
+    while i < len(fileName):
+        placeID = int(fileName.iloc[i, 0])
+        coordinates = [point.coords[0] for point in fileName.iloc[i].geometry.geoms]
+        longitude, latitude = float(coordinates[0][0]), float(coordinates[0][1])
 
-    if (stFurn.iloc[i, 3] == "None" or stFurn.iloc[i, 4] == "None"):    
-        address = gmaps.reverse_geocode((latitude, longitude))
-        firstListing = address[0]["address_components"][0]
-        address = firstListing["long_name"]
-    else:
-        address = stFurn.iloc[i, 3] + " " + stFurn.iloc[i, 4]
+        if (fileName.iloc[i, 3] == "None" or fileName.iloc[i, 4] == "None"):    
+            address = gmaps.reverse_geocode((latitude, longitude))
+            firstListing = address[0]["address_components"][0]
+            address = firstListing["long_name"]
+        else:
+            address = fileName.iloc[i, 3] + " " + fileName.iloc[i, 4]
 
-    bench = PointOfInterest(placeID, "Bench", address, longitude, latitude)
-    benchArray.append(bench)
+        objectPOI = PointOfInterest(placeID, category, address, longitude, latitude)
+        objectArray.append(objectPOI)
 
-    print(f"Creating class objects... [{i}/{len(stFurn)}]")
+        print(f"Creating class objects... [{i}/{len(fileName)}]")
 
-    i += 1
+        i += 1
 
 
-with open("./backend/cleanData/benches.json", "w") as file:
-    json.dump([bench.to_dict() for bench in benchArray], file, indent=4)
-    print("Finished copying to JSON")
+    with open(f"./backend/cleanData/{outputName}.json", "w") as file:
+        json.dump([objectPOI.to_dict() for objectPOI in objectArray], file, indent=4)
+        print("Finished copying to JSON")
+
+
+'''
+createObj("./backend/sourcedData/streetFurninture.geojson","Bench","benches")
+createObj("./backend/sourcedData/washroom.geojson","Public washroom","washroom")
+createObj("./backend/sourcedData/transitShelter.geojson","Transit shelter","transitShelter")
+createObj("./backend/sourcedData/wayfinding.geojson","Wayfinding structure","wayfinding")
+
+'''
+createObj("./backend/sourcedData/litter.geojson","Litter receptacle","litter")
+
 
 '''
 TYPESCRIPT INTEFACE:
