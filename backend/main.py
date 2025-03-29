@@ -42,7 +42,8 @@ class PointOfInterest:
 
 def createObj(fileName, category, outputName):
     '''
-    Given a geoJSON file, convert it to clean readable JSON text
+    Given a geoJSON file, convert it to clean readable JSON text.
+    Calls Google Maps Geocoding API if an address isn't listed 
     ---
     fileName - path to the file (str)
     pointData - type of street furniture (str)
@@ -77,18 +78,15 @@ def createObj(fileName, category, outputName):
         print("Finished copying to JSON")
 
 
-'''
 createObj("./backend/sourcedData/streetFurninture.geojson","Bench","benches")
 createObj("./backend/sourcedData/washroom.geojson","Public washroom","washroom")
 createObj("./backend/sourcedData/transitShelter.geojson","Transit shelter","transitShelter")
 createObj("./backend/sourcedData/wayfinding.geojson","Wayfinding structure","wayfinding")
-
-'''
 createObj("./backend/sourcedData/litter.geojson","Litter receptacle","litter")
 
 
 '''
-TYPESCRIPT INTEFACE:
+GIVEN TYPESCRIPT INTEFACE:
 
 interface PointOfInterest {
   id: string
