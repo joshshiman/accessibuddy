@@ -1,4 +1,9 @@
 import geopandas 
+import json
+import keys 
+import googlemaps
+
+gmaps = googlemaps.Client(key=keys.GOOGLE_MAPS_API)
 
 class PointOfInterest:
     def __init__(self, placeID, type, address, longitude, latitude):
@@ -25,25 +30,43 @@ class PointOfInterest:
                 f"Name (Address): {self.name}\n"
                 f"Location: ({self.latitude}, {self.longitude})")
 
-stFurn = geopandas.read_file("./backend/streetFurninture.geojson")
+    def to_dict(self):
+        return {
+            "placeID": self.id,
+            "type": self.type,
+            "name": self.name,
+            "longitude": self.longitude,
+            "latitude": self.latitude
+        }
+
+stFurn = geopandas.read_file("./backend/sourcedData/streetFurninture.geojson")
 
 i = 0
 benchArray = []
 
 while i < len(stFurn):
     placeID = int(stFurn.iloc[i, 0])
-    address = stFurn.iloc[i, 3] + " " + stFurn.iloc[i, 4]
     coordinates = [point.coords[0] for point in stFurn.iloc[i].geometry.geoms]
     longitude, latitude = float(coordinates[0][0]), float(coordinates[0][1])
+
+    if (stFurn.iloc[i, 3] == "None" or stFurn.iloc[i, 4] == "None"):    
+        address = gmaps.reverse_geocode((latitude, longitude))
+        firstListing = address[0]["address_components"][0]
+        address = firstListing["long_name"]
+    else:
+        address = stFurn.iloc[i, 3] + " " + stFurn.iloc[i, 4]
 
     bench = PointOfInterest(placeID, "Bench", address, longitude, latitude)
     benchArray.append(bench)
 
+    print(f"Creating class objects... [{i}/{len(stFurn)}]")
+
     i += 1
 
-for bench in benchArray:
-    print(bench)
 
+with open("./backend/cleanData/benches.json", "w") as file:
+    json.dump([bench.to_dict() for bench in benchArray], file, indent=4)
+    print("Finished copying to JSON")
 
 '''
 TYPESCRIPT INTEFACE:
