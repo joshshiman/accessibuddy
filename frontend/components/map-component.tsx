@@ -53,143 +53,6 @@ interface PointOfInterest {
 
 // Sample data (replace with actual Toronto open data)
 const sampleData: PointOfInterest[] = [
-  {
-    "id": "99",
-    "type": "other",
-    "name": "4900 Yonge St",
-    "location": [43.7632855430307, -79.4116743986989],
-    "description": "Wayfinding structure located at 4900 Yonge St.",
-    "features": []
-  },
-  {
-    "id": "100",
-    "type": "other",
-    "name": "6A Spadina Rd",
-    "location": [43.6672006949926, -79.4041775521748],
-    "description": "Wayfinding structure located at 6A Spadina Rd.",
-    "features": []
-  },
-  {
-    "id": "101",
-    "type": "other",
-    "name": "5025 Yonge St",
-    "location": [43.7668180623771, -79.4121030887771],
-    "description": "Wayfinding structure located at 5025 Yonge St.",
-    "features": []
-  },
-  {
-    "id": "102",
-    "type": "other",
-    "name": "90 Danforth Ave",
-    "location": [43.6765116740223, -79.3588305438369],
-    "description": "Wayfinding structure located at 90 Danforth Ave.",
-    "features": []
-  },
-  {
-    "id": "103",
-    "type": "other",
-    "name": "Ellesmere Rd at Borough Approach East",
-    "location": [43.771445600137, -79.2559874707084],
-    "description": "Wayfinding structure located at Ellesmere Rd at Borough Approach East.",
-    "features": []
-  },
-  {
-    "id": "104",
-    "type": "other",
-    "name": "10 Linnsmore Cres",
-    "location": [43.6825732948944, -79.3300821195748],
-    "description": "Wayfinding structure located at 10 Linnsmore Cres.",
-    "features": []
-  },
-  {
-    "id": "105",
-    "type": "other",
-    "name": "160 Borough Dr",
-    "location": [43.7723527243402, -79.2560951182967],
-    "description": "Wayfinding structure located at 160 Borough Dr.",
-    "features": []
-  },
-  {
-    "id": "106",
-    "type": "other",
-    "name": "77 Town Centre Crt",
-    "location": [43.7744476912109, -79.252589943987],
-    "description": "Wayfinding structure located at 77 Town Centre Crt.",
-    "features": []
-  },
-  {
-    "id": "107",
-    "type": "other",
-    "name": "717 Pape Ave",
-    "location": [43.679136568958, -79.3448527999376],
-    "description": "Wayfinding structure located at 717 Pape Ave.",
-    "features": []
-  },
-  {
-    "id": "108",
-    "type": "other",
-    "name": "250 Bloor St E",
-    "location": [43.6716461494876, -79.3807654073655],
-    "description": "Wayfinding structure located at 250 Bloor St E.",
-    "features": []
-  },
-  {
-    "id": "109",
-    "type": "other",
-    "name": "1020 Yonge St",
-    "location": [43.6768002221954, -79.3895605631307],
-    "description": "Wayfinding structure located at 1020 Yonge St.",
-    "features": []
-  },
-  {
-    "id": "110",
-    "type": "other",
-    "name": "11 St Clair Ave E",
-    "location": [43.6881784776289, -79.3932910438152],
-    "description": "Wayfinding structure located at 11 St Clair Ave E.",
-    "features": []
-  },
-  {
-    "id": "111",
-    "type": "other",
-    "name": "12 Shaftesbury Ave",
-    "location": [43.6820636532628, -79.3913760823945],
-    "description": "Wayfinding structure located at 12 Shaftesbury Ave.",
-    "features": []
-  },
-  {
-    "id": "112",
-    "type": "other",
-    "name": "396 St Clair Ave W",
-    "location": [43.6838695353224, -79.4153593341072],
-    "description": "Wayfinding structure located at 396 St Clair Ave W.",
-    "features": []
-  },
-  {
-    "id": "113",
-    "type": "other",
-    "name": "131 Glen Manor Dr",
-    "location": [43.6716028818004, -79.292952233254],
-    "description": "Wayfinding structure located at 131 Glen Manor Dr.",
-    "features": []
-  },
-  {
-    "id": "114",
-    "type": "other",
-    "name": "611 King St E",
-    "location": [43.6569062802401, -79.3559215441279],
-    "description": "Wayfinding structure located at 611 King St E.",
-    "features": []
-  },
-  {
-    "id": "115",
-    "type": "other",
-    "name": "245 Main St",
-    "location": [43.6869217974925, -79.3011372655933],
-    "description": "Wayfinding structure located at 245 Main St.",
-    "features": []
-  },
-  
     {
       "id": "225",
       "type": "bench",
@@ -733,7 +596,144 @@ const sampleData: PointOfInterest[] = [
         "location": [43.8032974662372, -79.1946642749801],
         "description": "Bench located at 8270 Sheppard Ave E.",
         "features": []
+      },
+      {
+        "id": "99",
+        "type": "other",
+        "name": "4900 Yonge St",
+        "location": [43.7632855430307, -79.4116743986989],
+        "description": "Wayfinding structure located at 4900 Yonge St.",
+        "features": []
+      },
+      {
+        "id": "100",
+        "type": "other",
+        "name": "6A Spadina Rd",
+        "location": [43.6672006949926, -79.4041775521748],
+        "description": "Wayfinding structure located at 6A Spadina Rd.",
+        "features": []
+      },
+      {
+        "id": "101",
+        "type": "other",
+        "name": "5025 Yonge St",
+        "location": [43.7668180623771, -79.4121030887771],
+        "description": "Wayfinding structure located at 5025 Yonge St.",
+        "features": []
+      },
+      {
+        "id": "102",
+        "type": "other",
+        "name": "90 Danforth Ave",
+        "location": [43.6765116740223, -79.3588305438369],
+        "description": "Wayfinding structure located at 90 Danforth Ave.",
+        "features": []
+      },
+      {
+        "id": "103",
+        "type": "other",
+        "name": "Ellesmere Rd at Borough Approach East",
+        "location": [43.771445600137, -79.2559874707084],
+        "description": "Wayfinding structure located at Ellesmere Rd at Borough Approach East.",
+        "features": []
+      },
+      {
+        "id": "104",
+        "type": "other",
+        "name": "10 Linnsmore Cres",
+        "location": [43.6825732948944, -79.3300821195748],
+        "description": "Wayfinding structure located at 10 Linnsmore Cres.",
+        "features": []
+      },
+      {
+        "id": "105",
+        "type": "other",
+        "name": "160 Borough Dr",
+        "location": [43.7723527243402, -79.2560951182967],
+        "description": "Wayfinding structure located at 160 Borough Dr.",
+        "features": []
+      },
+      {
+        "id": "106",
+        "type": "other",
+        "name": "77 Town Centre Crt",
+        "location": [43.7744476912109, -79.252589943987],
+        "description": "Wayfinding structure located at 77 Town Centre Crt.",
+        "features": []
+      },
+      {
+        "id": "107",
+        "type": "other",
+        "name": "717 Pape Ave",
+        "location": [43.679136568958, -79.3448527999376],
+        "description": "Wayfinding structure located at 717 Pape Ave.",
+        "features": []
+      },
+      {
+        "id": "108",
+        "type": "other",
+        "name": "250 Bloor St E",
+        "location": [43.6716461494876, -79.3807654073655],
+        "description": "Wayfinding structure located at 250 Bloor St E.",
+        "features": []
+      },
+      {
+        "id": "109",
+        "type": "other",
+        "name": "1020 Yonge St",
+        "location": [43.6768002221954, -79.3895605631307],
+        "description": "Wayfinding structure located at 1020 Yonge St.",
+        "features": []
+      },
+      {
+        "id": "110",
+        "type": "other",
+        "name": "11 St Clair Ave E",
+        "location": [43.6881784776289, -79.3932910438152],
+        "description": "Wayfinding structure located at 11 St Clair Ave E.",
+        "features": []
+      },
+      {
+        "id": "111",
+        "type": "other",
+        "name": "12 Shaftesbury Ave",
+        "location": [43.6820636532628, -79.3913760823945],
+        "description": "Wayfinding structure located at 12 Shaftesbury Ave.",
+        "features": []
+      },
+      {
+        "id": "112",
+        "type": "other",
+        "name": "396 St Clair Ave W",
+        "location": [43.6838695353224, -79.4153593341072],
+        "description": "Wayfinding structure located at 396 St Clair Ave W.",
+        "features": []
+      },
+      {
+        "id": "113",
+        "type": "other",
+        "name": "131 Glen Manor Dr",
+        "location": [43.6716028818004, -79.292952233254],
+        "description": "Wayfinding structure located at 131 Glen Manor Dr.",
+        "features": []
+      },
+      {
+        "id": "114",
+        "type": "other",
+        "name": "611 King St E",
+        "location": [43.6569062802401, -79.3559215441279],
+        "description": "Wayfinding structure located at 611 King St E.",
+        "features": []
+      },
+      {
+        "id": "115",
+        "type": "other",
+        "name": "245 Main St",
+        "location": [43.6869217974925, -79.3011372655933],
+        "description": "Wayfinding structure located at 245 Main St.",
+        "features": []
       }
+      
       
       
       
@@ -769,8 +769,8 @@ export default function MapComponent() {
   const [filters, setFilters] = useState({
     restroom: true,
     bench: true,
-    transitshelter: true,
     other: true,
+    transitshelter: true,
     
   })
   const [selectedPoi, setSelectedPoi] = useState<PointOfInterest | null>(null)
@@ -853,6 +853,16 @@ export default function MapComponent() {
                 </Label>
               </div>
               <div className="flex items-center space-x-2">
+                <Checkbox
+                  id="filter-other"
+                  checked={filters.other}
+                  onCheckedChange={() => handleFilterChange("other")}
+                />
+                <Label htmlFor="filter-other" className="flex items-center gap-2">
+                  <MapPin className="h-4 w-4" /> Other
+                </Label>
+              </div>
+              <div className="flex items-center space-x-2">
 
                 {/* LOOOOOOOOOOOk */}
                 <Checkbox
@@ -864,18 +874,6 @@ export default function MapComponent() {
                   <MapPin className="h-4 w-4" /> transit shelter
                 </Label>
               </div>
-              <div className="flex items-center space-x-2">
-                <Checkbox
-                  id="filter-other"
-                  checked={filters.other}
-                  onCheckedChange={() => handleFilterChange("other")}
-                />
-                <Label htmlFor="filter-other" className="flex items-center gap-2">
-                  <MapPin className="h-4 w-4" /> Other
-                </Label>
-              </div>
-              
-              
             </div>
           </div>
 
@@ -915,8 +913,8 @@ export default function MapComponent() {
           }}
         >
           <TileLayer
-            attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>'
-            url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
 
           {filteredPois.map((poi) => (
