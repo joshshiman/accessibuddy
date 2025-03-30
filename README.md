@@ -1,89 +1,52 @@
-# AccessiBuddy
+# 🧭 AccessiBuddy — Making Toronto Accessible for Everyone
+🌍 Meet AccessiBuddy
+An interactive map designed to make Toronto more accessible for seniors and everyone else.
 
-### Empowering Seniors in Toronto with Accesible Navigation Planning 
+Navigating a city can be tough, especially for older adults who need rest stops or accessible amenities to get around comfortably. AccessiBuddy solves this with a filterable, interactive map that pinpoints benches, public washrooms, and transit shelters across Toronto. Packed with features like location search, adjustable radius for nearby points of interest, and real-time map centering, it helps users plan routes and explore the city with ease and confidence.
 
-## 🌍 About AccessiBuddy
+🌟 Our Inspiration
+Seniors often struggle to navigate urban spaces due to a lack of accessible amenities. We built AccessiBuddy to empower older adults with a simple, practical tool to find benches, washrooms, and transit shelters—boosting their mobility and independence in Toronto. Our mission? Make urban living inclusive, one map marker at a time.
 
-Senior citizens in Toronto have difficulties navigating urban and technological landscapes making it hard to feel connected in a digital-first society.
+💻 Behind the Scenes
+AccessiBuddy is powered by a sleek, efficient tech stack:
+- **Frontend:** Next.js, React, JavaScript
+- **Mapping:** Leaflet.js
+- **Styling:** Tailwind CSS 
+- **Data Sources:** Toronto Open Data (benches, washrooms, shelters)
+- **Deployment:** Vercel
 
-**AccessiBuddy** is an easy-to-use map of Toronto with accessible points of interest, route planning and more.
+💡 Challenges We Overcame
+Rendering tons of map data without slowing things down was no small feat. We tackled this by using clustering and lazy loading to keep the map snappy. Plus, designing for seniors meant rethinking usability—think bigger clickable areas and clear, simple instructions. It took trial and error, but we made it work.
 
-✅ **Personalized Political Insights** – Enter your postal code to find your municipal, provincial, and federal representatives.  
-✅ **Policy Alignment Quiz** – Discover where you stand politically by answering simple questions on key policies.  
-✅ **Localized Political News** – Get curated news articles and updates relevant to your region.  
-✅ **AI-Powered News Assistant** – Use an AI chatbot to summarize and ask questions about political news in a neutral, unbiased way.  
+💼 Why We’re Proud of What We Built
+We’re thrilled to have built a tool that tackles a real-world issue head-on, making Toronto more accessible for seniors. The map’s intuitive design means anyone can use it, and diving into geospatial data and mapping tech pushed our team to new heights. This is more than a project it’s a step toward inclusive cities.
 
-Whether you're a student, a professional, or simply a concerned citizen, **Politicate** ensures that staying politically informed is easy and engaging.  
+⏰ What We Learned
+Teamwork made the dream work. From frontend finesse to data wrangling, every member brought something unique to the table. We learned how crucial user-centered design is, especially for seniors, and got hands-on with mapping libraries and geospatial data, skills we’ll carry forward.
 
----
+🚌 Where Accessibly is Headed
+Toronto’s just the start. We see AccessiBuddy expanding to cities worldwide, helping seniors navigate urban jungles everywhere. Next up: adding more amenities like accessible parking or medical facilities, and maybe even syncing with transit schedules for real-time updates. The future’s wide open.
 
-## Pre-requisites
-Before running **Politicate**, make sure you have the following installed:
+## Getting Started
 
-### **1️⃣ Install `uv` (Python Environment & Dependency Manager)**
-[Official UV Installation Guide](https://docs.astral.sh/uv/getting-started/installation/)
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
+# 1. Clone the repo and move into the project folder
+git clone https://github.com/joshshiman/accessibuddy
 
-### **2️⃣ Install `npm` (Node.js Package Manager)**
-Install Node.js from [nodejs.org](https://nodejs.org/en/download), which includes `npm`.
-Verify installation:
-```bash
-node -v   # Check Node.js version  
-npm -v    # Check npm version  
-```
 
----
-## Setup & Running Instructions
-
-### **Backend (FastAPI) Setup**
-
-1️⃣ **Navigate to the backend folder:**
-```bash
-cd backend
-```
-
-2️⃣ **Create a `.env` file** inside `backend/` and add the following:
-```ini
-PSE_API_KEY=your-api-key
-GOOGLE_CLOUD_API_KEY=your-api-key
-SUPABASE_PROJECT_URL=your-url
-SUPABASE_API_KEY=your-api-key
-SUPABASE_SERVICE_KEY=your-service-key
-OPENAI_API_KEY=your-api-key
-```
-
-3️⃣ **Install dependencies and run the backend:**
-```bash
-uv run fastapi dev   # Start the FastAPI server  
-```
-The backend runs on **`http://localhost:8000`**.
-
----
-### **Frontend Setup**
-
-1️⃣ **Navigate to the frontend folder:**
-```bash
-cd frontend
-```
-
-2️⃣ **Create a `.env.local` file** inside `frontend/` and add the backend URL:
-```ini
-NEXT_PUBLIC_SUPABASE_URL=your-url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-key
-```
-
-3️⃣ **Install dependencies and start the frontend:**
-```bash
+# 2. Install all dependencies
 npm install
+
+# 3. Start the local development server
 npm run dev
-```
-The frontend runs on **`http://localhost:3000`**.
 
----
-## License
-This project is open-source under the **MIT License**.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
-### 🎉 Now, You're Ready to Explore Politicate! 🚀
+# 🔍 Features
+
+- 🔎 Filterable amenity types (benches, washrooms, shelters)
+- 📍 Real-time user location tracking
+- 🗺️ Adjustable radius view
+- 📌 Smooth marker clustering for performance
+- 👵 Senior-friendly design with large UI elements
+
+
