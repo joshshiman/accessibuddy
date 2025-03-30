@@ -861,7 +861,7 @@ export default function MapComponent() {
                   onCheckedChange={() => handleFilterChange("transitshelter")}
                 />
                 <Label htmlFor="filter-transitshelter" className="flex items-center gap-2">
-                  <MapPin className="h-4 w-4" /> transit shelter
+                  <MapPin className="h-4 w-4" /> Transit Shelter
                 </Label>
               </div>
               <div className="flex items-center space-x-2">
