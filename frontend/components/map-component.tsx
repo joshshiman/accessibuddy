@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect, useRef, useCallback } from "react"
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet"
 import L from "leaflet"
 import "leaflet/dist/leaflet.css"
@@ -10,6 +10,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
 import { TableIcon as Toilet, BlocksIcon as Bench, MapPin, Info } from "lucide-react"
+import { Input } from "@/components/ui/input"
+import { Slider } from "@/components/ui/slider"
 
 // Fix Leaflet icon issues with Next.js
 const fixLeafletIcon = () => {
@@ -763,6 +765,26 @@ function SetViewOnClick({ coords }: { coords: [number, number] }) {
   return null
 }
 
+// Add these helper functions before the MapComponent
+const calculateDistance = (
+  lat1: number,
+  lon1: number,
+  lat2: number,
+  lon2: number
+): number => {
+  const R = 6371 // Earth's radius in kilometers
+  const dLat = (lat2 - lat1) * (Math.PI / 180)
+  const dLon = (lon2 - lon1) * (Math.PI / 180)
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * (Math.PI / 180)) *
+      Math.cos(lat2 * (Math.PI / 180)) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2)
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+  return R * c
+}
+
 export default function MapComponent() {
   const [pois, setPois] = useState<PointOfInterest[]>([])
   const [filteredPois, setFilteredPois] = useState<PointOfInterest[]>([])
@@ -776,6 +798,8 @@ export default function MapComponent() {
   const [selectedPoi, setSelectedPoi] = useState<PointOfInterest | null>(null)
   const [mapCenter, setMapCenter] = useState<[number, number]>([43.6532, -79.3832]) // Toronto center
   const mapRef = useRef<L.Map | null>(null)
+  const [searchQuery, setSearchQuery] = useState("")
+  const [searchRadius, setSearchRadius] = useState([5]) // 5km default radius
 
   useEffect(() => {
     fixLeafletIcon()
@@ -787,13 +811,49 @@ export default function MapComponent() {
     })
   }, [])
 
-  // Update filtered POIs when filters change
+  // Add this function inside MapComponent
+  const filterBySearchAndRadius = useCallback(
+    (pois: PointOfInterest[]) => {
+      return pois.filter((poi) => {
+        // Filter by search query
+        const matchesSearch = poi.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          poi.description.toLowerCase().includes(searchQuery.toLowerCase())
+
+        // If no search query, just check radius
+        if (!searchQuery) return true
+
+        // Filter by radius if we have a search match
+        if (matchesSearch) {
+          // Find matching POI to get center point
+          const centerPoi = pois.find(
+            (p) =>
+              p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+              p.description.toLowerCase().includes(searchQuery.toLowerCase())
+          )
+
+          if (centerPoi) {
+            const distance = calculateDistance(
+              centerPoi.location[0],
+              centerPoi.location[1],
+              poi.location[0],
+              poi.location[1]
+            )
+            return distance <= searchRadius[0]
+          }
+          return true
+        }
+        return false
+      })
+    },
+    [searchQuery, searchRadius]
+  )
+
+  // Update the useEffect that handles filtering
   useEffect(() => {
-    const filtered = pois.filter((poi) => {
-      return filters[poi.type]
-    })
-    setFilteredPois(filtered)
-  }, [filters, pois])
+    const filtered = pois.filter((poi) => filters[poi.type])
+    const searchFiltered = filterBySearchAndRadius(filtered)
+    setFilteredPois(searchFiltered)
+  }, [filters, pois, filterBySearchAndRadius])
 
   // Handle filter changes
   const handleFilterChange = (type: PoiType) => {
@@ -827,6 +887,30 @@ export default function MapComponent() {
       <Card className="md:col-span-1 overflow-auto">
         <CardContent className="p-4">
           <h2 className="text-2xl font-bold mb-4">Accessible Locations</h2>
+          
+          {/* Search and Radius Controls */}
+          <div className="space-y-4 mb-6">
+            <div className="space-y-2">
+              <Label htmlFor="search">Search Location</Label>
+              <Input
+                id="search"
+                placeholder="Search by name or address..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+            </div>
+            
+            <div className="space-y-2">
+              <Label>Search Radius: {searchRadius[0]}km</Label>
+              <Slider
+                min={1}
+                max={20}
+                step={1}
+                value={searchRadius}
+                onValueChange={setSearchRadius}
+              />
+            </div>
+          </div>
 
           {/* Filters */}
           <div className="mb-6">
@@ -881,7 +965,9 @@ export default function MapComponent() {
 
           {/* Location list */}
           <div>
-            <h3 className="text-lg font-semibold mb-2">Locations</h3>
+            <h3 className="text-lg font-semibold mb-2">
+              Locations ({filteredPois.length})
+            </h3>
             <div className="space-y-2">
               {filteredPois.map((poi) => (
                 <Button
