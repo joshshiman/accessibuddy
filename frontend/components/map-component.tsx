@@ -53,6 +53,143 @@ interface PointOfInterest {
 
 // Sample data (replace with actual Toronto open data)
 const sampleData: PointOfInterest[] = [
+  {
+    "id": "99",
+    "type": "other",
+    "name": "4900 Yonge St",
+    "location": [43.7632855430307, -79.4116743986989],
+    "description": "Wayfinding structure located at 4900 Yonge St.",
+    "features": []
+  },
+  {
+    "id": "100",
+    "type": "other",
+    "name": "6A Spadina Rd",
+    "location": [43.6672006949926, -79.4041775521748],
+    "description": "Wayfinding structure located at 6A Spadina Rd.",
+    "features": []
+  },
+  {
+    "id": "101",
+    "type": "other",
+    "name": "5025 Yonge St",
+    "location": [43.7668180623771, -79.4121030887771],
+    "description": "Wayfinding structure located at 5025 Yonge St.",
+    "features": []
+  },
+  {
+    "id": "102",
+    "type": "other",
+    "name": "90 Danforth Ave",
+    "location": [43.6765116740223, -79.3588305438369],
+    "description": "Wayfinding structure located at 90 Danforth Ave.",
+    "features": []
+  },
+  {
+    "id": "103",
+    "type": "other",
+    "name": "Ellesmere Rd at Borough Approach East",
+    "location": [43.771445600137, -79.2559874707084],
+    "description": "Wayfinding structure located at Ellesmere Rd at Borough Approach East.",
+    "features": []
+  },
+  {
+    "id": "104",
+    "type": "other",
+    "name": "10 Linnsmore Cres",
+    "location": [43.6825732948944, -79.3300821195748],
+    "description": "Wayfinding structure located at 10 Linnsmore Cres.",
+    "features": []
+  },
+  {
+    "id": "105",
+    "type": "other",
+    "name": "160 Borough Dr",
+    "location": [43.7723527243402, -79.2560951182967],
+    "description": "Wayfinding structure located at 160 Borough Dr.",
+    "features": []
+  },
+  {
+    "id": "106",
+    "type": "other",
+    "name": "77 Town Centre Crt",
+    "location": [43.7744476912109, -79.252589943987],
+    "description": "Wayfinding structure located at 77 Town Centre Crt.",
+    "features": []
+  },
+  {
+    "id": "107",
+    "type": "other",
+    "name": "717 Pape Ave",
+    "location": [43.679136568958, -79.3448527999376],
+    "description": "Wayfinding structure located at 717 Pape Ave.",
+    "features": []
+  },
+  {
+    "id": "108",
+    "type": "other",
+    "name": "250 Bloor St E",
+    "location": [43.6716461494876, -79.3807654073655],
+    "description": "Wayfinding structure located at 250 Bloor St E.",
+    "features": []
+  },
+  {
+    "id": "109",
+    "type": "other",
+    "name": "1020 Yonge St",
+    "location": [43.6768002221954, -79.3895605631307],
+    "description": "Wayfinding structure located at 1020 Yonge St.",
+    "features": []
+  },
+  {
+    "id": "110",
+    "type": "other",
+    "name": "11 St Clair Ave E",
+    "location": [43.6881784776289, -79.3932910438152],
+    "description": "Wayfinding structure located at 11 St Clair Ave E.",
+    "features": []
+  },
+  {
+    "id": "111",
+    "type": "other",
+    "name": "12 Shaftesbury Ave",
+    "location": [43.6820636532628, -79.3913760823945],
+    "description": "Wayfinding structure located at 12 Shaftesbury Ave.",
+    "features": []
+  },
+  {
+    "id": "112",
+    "type": "other",
+    "name": "396 St Clair Ave W",
+    "location": [43.6838695353224, -79.4153593341072],
+    "description": "Wayfinding structure located at 396 St Clair Ave W.",
+    "features": []
+  },
+  {
+    "id": "113",
+    "type": "other",
+    "name": "131 Glen Manor Dr",
+    "location": [43.6716028818004, -79.292952233254],
+    "description": "Wayfinding structure located at 131 Glen Manor Dr.",
+    "features": []
+  },
+  {
+    "id": "114",
+    "type": "other",
+    "name": "611 King St E",
+    "location": [43.6569062802401, -79.3559215441279],
+    "description": "Wayfinding structure located at 611 King St E.",
+    "features": []
+  },
+  {
+    "id": "115",
+    "type": "other",
+    "name": "245 Main St",
+    "location": [43.6869217974925, -79.3011372655933],
+    "description": "Wayfinding structure located at 245 Main St.",
+    "features": []
+  },
+  
     {
       "id": "225",
       "type": "bench",
@@ -247,7 +384,7 @@ const sampleData: PointOfInterest[] = [
       },
       {
         "id": "5",
-        "type": "other",
+        "type": "transitshelter",
         "name": "1524 Bathurst St",
         "location": [43.685179334043, -79.4192419633966],
         "description": "Transit shelter located at 1524 Bathurst St.",
@@ -255,7 +392,7 @@ const sampleData: PointOfInterest[] = [
       },
       {
         "id": "6",
-        "type": "other",
+        "type": "transitshelter",
         "name": "2345 Finch Ave W",
         "location": [43.7518326484722, -79.5421355711224],
         "description": "Transit shelter located at 2345 Finch Ave W.",
@@ -263,7 +400,7 @@ const sampleData: PointOfInterest[] = [
       },
       {
         "id": "7",
-        "type": "other",
+        "type": "transitshelter",
         "name": "15 Damascus Dr",
         "location": [43.7354624420894, -79.5978425623772],
         "description": "Transit shelter located at 15 Damascus Dr.",
@@ -271,7 +408,7 @@ const sampleData: PointOfInterest[] = [
       },
       {
         "id": "8",
-        "type": "other",
+        "type": "transitshelter",
         "name": "2051 Bridletowne Crcl",
         "location": [43.7982558220977, -79.3097458063405],
         "description": "Transit shelter located at 2051 Bridletowne Crcl.",
@@ -279,7 +416,7 @@ const sampleData: PointOfInterest[] = [
       },
       {
         "id": "9",
-        "type": "other",
+        "type": "transitshelter",
         "name": "63 Hunting Ridge",
         "location": [43.681259814307, -79.5525335015073],
         "description": "Transit shelter located at 63 Hunting Ridge.",
@@ -287,7 +424,7 @@ const sampleData: PointOfInterest[] = [
       },
       {
         "id": "10",
-        "type": "other",
+        "type": "transitshelter",
         "name": "7 Arleta Ave",
         "location": [43.7416745767321, -79.5013449571816],
         "description": "Transit shelter located at 7 Arleta Ave.",
@@ -295,7 +432,7 @@ const sampleData: PointOfInterest[] = [
       },
       {
         "id": "11",
-        "type": "other",
+        "type": "transitshelter",
         "name": "4002 Sheppard Ave E",
         "location": [43.7835098518048, -79.2880494320827],
         "description": "Transit shelter located at 4002 Sheppard Ave E.",
@@ -303,202 +440,10 @@ const sampleData: PointOfInterest[] = [
       },
       {
         "id": "12",
-        "type": "other",
+        "type": "transitshelter",
         "name": "63 Silversted Dr",
         "location": [43.8015974974863, -79.2639923972736],
         "description": "Transit shelter located at 63 Silversted Dr.",
-        "features": []
-      },
-      {
-        "id": "13",
-        "type": "other",
-        "name": "2500 Sheppard Ave E",
-        "location": [43.7755353967602, -79.3233502905669],
-        "description": "Transit shelter located at 2500 Sheppard Ave E.",
-        "features": []
-      },
-      {
-        "id": "14",
-        "type": "other",
-        "name": "5359 Dundas St W",
-        "location": [43.6357663319677, -79.5401479113998],
-        "description": "Transit shelter located at 5359 Dundas St W.",
-        "features": []
-      },
-      {
-        "id": "15",
-        "type": "other",
-        "name": "3077 Weston Rd",
-        "location": [43.7318061169369, -79.537795395027],
-        "description": "Transit shelter located at 3077 Weston Rd.",
-        "features": []
-      },
-      {
-        "id": "16",
-        "type": "other",
-        "name": "1111A College St",
-        "location": [43.6524461259982, -79.4327269729055],
-        "description": "Transit shelter located at 1111A College St.",
-        "features": []
-      },
-      {
-        "id": "17",
-        "type": "other",
-        "name": "781 Warden Ave",
-        "location": [43.7252948045519, -79.2868126978688],
-        "description": "Transit shelter located at 781 Warden Ave.",
-        "features": []
-      },
-      {
-        "id": "18",
-        "type": "other",
-        "name": "2200 Jane St",
-        "location": [43.7212937142588, -79.5084781764239],
-        "description": "Transit shelter located at 2200 Jane St.",
-        "features": []
-      },
-      {
-        "id": "19",
-        "type": "other",
-        "name": "986 The Queensway",
-        "location": [43.623850867702, -79.5143936350267],
-        "description": "Transit shelter located at 986 The Queensway.",
-        "features": []
-      },
-      {
-        "id": "20",
-        "type": "other",
-        "name": "1 Glen Watford Dr",
-        "location": [43.7861379185644, -79.275767197261],
-        "description": "Transit shelter located at 1 Glen Watford Dr.",
-        "features": []
-      },
-      {
-        "id": "21",
-        "type": "other",
-        "name": "7600 Sheppard Ave E",
-        "location": [43.8019761111948, -79.2004362071333],
-        "description": "Transit shelter located at 7600 Sheppard Ave E.",
-        "features": []
-      },
-      {
-        "id": "22",
-        "type": "other",
-        "name": "95 High Park Ave",
-        "location": [43.6570109840403, -79.4666345849166],
-        "description": "Transit shelter located at 95 High Park Ave.",
-        "features": []
-      },
-      {
-        "id": "23",
-        "type": "other",
-        "name": "443 Queen St W",
-        "location": [43.6486182708151, -79.3966410731238],
-        "description": "Transit shelter located at 443 Queen St W.",
-        "features": []
-      },
-      {
-        "id": "24",
-        "type": "other",
-        "name": "220 The East Mall",
-        "location": [43.6320274691068, -79.5534542115062],
-        "description": "Transit shelter located at 220 The East Mall.",
-        "features": []
-      },
-      {
-        "id": "25",
-        "type": "other",
-        "name": "245 Eglinton Ave E",
-        "location": [43.708493638347, -79.3892401842983],
-        "description": "Transit shelter located at 245 Eglinton Ave E.",
-        "features": []
-      },
-      {
-        "id": "26",
-        "type": "other",
-        "name": "1496 Kipling Ave",
-        "location": [43.6790638489409, -79.5519333159798],
-        "description": "Transit shelter located at 1496 Kipling Ave.",
-        "features": []
-      },
-      {
-        "id": "27",
-        "type": "other",
-        "name": "2606 St Clair Ave W",
-        "location": [43.6673374460797, -79.4914618909566],
-        "description": "Transit shelter located at 2606 St Clair Ave W.",
-        "features": []
-      },
-      {
-        "id": "28",
-        "type": "other",
-        "name": "294 Yonge St",
-        "location": [43.656210754526, -79.3811303948228],
-        "description": "Transit shelter located at 294 Yonge St.",
-        "features": []
-      },
-      {
-        "id": "29",
-        "type": "other",
-        "name": "580 Rathburn Rd",
-        "location": [43.6507154778785, -79.5817990025372],
-        "description": "Transit shelter located at 580 Rathburn Rd.",
-        "features": []
-      },
-      {
-        "id": "30",
-        "type": "other",
-        "name": "66 Lunsfield Cres",
-        "location": [43.8053159025531, -79.2655400630756],
-        "description": "Transit shelter located at 66 Lunsfield Cres.",
-        "features": []
-      },
-      {
-        "id": "31",
-        "type": "other",
-        "name": "43 Eglinton Ave E",
-        "location": [43.7069050042631, -79.3971392360397],
-        "description": "Transit shelter located at 43 Eglinton Ave E.",
-        "features": []
-      },
-      {
-        "id": "32",
-        "type": "other",
-        "name": "70 Parliament St",
-        "location": [43.652526638611, -79.3634176889855],
-        "description": "Transit shelter located at 70 Parliament St.",
-        "features": []
-      },
-      {
-        "id": "33",
-        "type": "other",
-        "name": "73 Mclaughlin Rd",
-        "location": [43.7776040780323, -79.5029467137221],
-        "description": "Transit shelter located at 73 Mclaughlin Rd.",
-        "features": []
-      },
-      {
-        "id": "34",
-        "type": "other",
-        "name": "20 Eglinton Ave W",
-        "location": [43.7067275339444, -79.39891364514],
-        "description": "Transit shelter located at 20 Eglinton Ave W.",
-        "features": []
-      },
-      {
-        "id": "35",
-        "type": "other",
-        "name": "626 Dundas St W",
-        "location": [43.652138273089, -79.4021146447425],
-        "description": "Transit shelter located at 626 Dundas St W.",
-        "features": []
-      },
-      {
-        "id": "36",
-        "type": "other",
-        "name": "731 College St",
-        "location": [43.6550223599631, -79.4191921589497],
-        "description": "Transit shelter located at 731 College St.",
         "features": []
       },
       {
@@ -824,6 +769,7 @@ export default function MapComponent() {
   const [filters, setFilters] = useState({
     restroom: true,
     bench: true,
+    transitshelter: true,
     other: true,
     
   })
@@ -907,6 +853,18 @@ export default function MapComponent() {
                 </Label>
               </div>
               <div className="flex items-center space-x-2">
+
+                {/* LOOOOOOOOOOOk */}
+                <Checkbox
+                  id="filter-transitshelter"
+                  checked={filters.transitshelter}
+                  onCheckedChange={() => handleFilterChange("transitshelter")}
+                />
+                <Label htmlFor="filter-transitshelter" className="flex items-center gap-2">
+                  <MapPin className="h-4 w-4" /> transit shelter
+                </Label>
+              </div>
+              <div className="flex items-center space-x-2">
                 <Checkbox
                   id="filter-other"
                   checked={filters.other}
@@ -916,6 +874,8 @@ export default function MapComponent() {
                   <MapPin className="h-4 w-4" /> Other
                 </Label>
               </div>
+              
+              
             </div>
           </div>
 
