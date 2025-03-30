@@ -1036,57 +1036,6 @@ export default function MapComponent() {
           {selectedPoi && <SetViewOnClick coords={selectedPoi.location} />}
         </MapContainer>
       </div>
-
-      {/* POI Details Panel (shows when a POI is selected) */}
-      {selectedPoi && (
-        <Card className="md:col-span-3 mt-4">
-          <CardContent className="p-4">
-            <div className="flex items-start justify-between">
-              <div className="flex items-center gap-2">
-                {getMarkerIcon(selectedPoi.type)}
-                <h2 className="text-2xl font-bold">{selectedPoi.name}</h2>
-              </div>
-              <Button variant="ghost" size="sm" onClick={() => setSelectedPoi(null)}>
-                Close
-              </Button>
-            </div>
-
-            <Tabs defaultValue="details" className="mt-4">
-              <TabsList>
-                <TabsTrigger value="details">Details</TabsTrigger>
-                <TabsTrigger value="features">Accessibility Features</TabsTrigger>
-              </TabsList>
-              <TabsContent value="details" className="mt-2">
-                <div className="flex items-start gap-4">
-                  <div className="flex-1">
-                    <p className="text-lg">{selectedPoi.description}</p>
-                    <div className="mt-4 flex items-center gap-2">
-                      <Info className="h-5 w-5 text-muted-foreground" />
-                      <span className="text-muted-foreground">
-                        Coordinates: {selectedPoi.location[0].toFixed(4)}, {selectedPoi.location[1].toFixed(4)}
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </TabsContent>
-              <TabsContent value="features" className="mt-2">
-                {selectedPoi.features ? (
-                  <ul className="space-y-2">
-                    {selectedPoi.features.map((feature, index) => (
-                      <li key={index} className="flex items-center gap-2">
-                        <div className="h-2 w-2 rounded-full bg-primary" />
-                        <span>{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                ) : (
-                  <p>No specific accessibility features listed.</p>
-                )}
-              </TabsContent>
-            </Tabs>
-          </CardContent>
-        </Card>
-      )}
     </div>
   )
 }
