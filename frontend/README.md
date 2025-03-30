@@ -1,4 +1,4 @@
-AccessiBuddy - Making Toronto accessible for everyone
+# 🧭 AccessiBuddy — Making Toronto Accessible for Everyone
 🌍 Meet AccessiBuddy
 An interactive map designed to make Toronto more accessible for seniors and everyone else.
 
@@ -9,10 +9,12 @@ Seniors often struggle to navigate urban spaces due to a lack of accessible amen
 
 💻 Behind the Scenes
 AccessiBuddy is powered by a sleek, efficient tech stack:
+- **Frontend:** Next.js, React, JavaScript
+- **Mapping:** Leaflet.js
+- **Styling:** Tailwind CSS 
+- **Data Sources:** Toronto Open Data (benches, washrooms, shelters)
+- **Deployment:** Vercel
 
-Frontend: Next.js, JavaScript, and Leaflet for interactive mapping
-Data Sources: Toronto’s open data portals for benches, washrooms, and shelters
-Deployment: Vercel
 💡 Challenges We Overcame
 Rendering tons of map data without slowing things down was no small feat. We tackled this by using clustering and lazy loading to keep the map snappy. Plus, designing for seniors meant rethinking usability—think bigger clickable areas and clear, simple instructions. It took trial and error, but we made it work.
 
@@ -24,7 +26,6 @@ Teamwork made the dream work. From frontend finesse to data wrangling, every mem
 
 🚌 Where Accessibly is Headed
 Toronto’s just the start. We see AccessiBuddy expanding to cities worldwide, helping seniors navigate urban jungles everywhere. Next up: adding more amenities like accessible parking or medical facilities, and maybe even syncing with transit schedules for real-time updates. The future’s wide open.
-
 
 ## Getting Started
 
@@ -39,6 +40,14 @@ npm install
 npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+# 🔍 Features
+
+- 🔎 Filterable amenity types (benches, washrooms, shelters)
+- 📍 Real-time user location tracking
+- 🗺️ Adjustable radius view
+- 📌 Smooth marker clustering for performance
+- 👵 Senior-friendly design with large UI elements
 
 
 
