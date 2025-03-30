@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+AccessiBuddy - Making Toronto accessible for everyone
+🌍 Meet AccessiBuddy
+An interactive map designed to make Toronto more accessible for seniors and everyone else.
+
+Navigating a city can be tough, especially for older adults who need rest stops or accessible amenities to get around comfortably. AccessiBuddy solves this with a filterable, interactive map that pinpoints benches, public washrooms, and transit shelters across Toronto. Packed with features like location search, adjustable radius for nearby points of interest, and real-time map centering, it helps users plan routes and explore the city with ease and confidence.
+
+🌟 Our Inspiration
+Seniors often struggle to navigate urban spaces due to a lack of accessible amenities. We built AccessiBuddy to empower older adults with a simple, practical tool to find benches, washrooms, and transit shelters—boosting their mobility and independence in Toronto. Our mission? Make urban living inclusive, one map marker at a time.
+
+💻 Behind the Scenes
+AccessiBuddy is powered by a sleek, efficient tech stack:
+
+Frontend: Next.js, JavaScript, and Leaflet for interactive mapping
+Data Sources: Toronto’s open data portals for benches, washrooms, and shelters
+Deployment: Vercel
+💡 Challenges We Overcame
+Rendering tons of map data without slowing things down was no small feat. We tackled this by using clustering and lazy loading to keep the map snappy. Plus, designing for seniors meant rethinking usability—think bigger clickable areas and clear, simple instructions. It took trial and error, but we made it work.
+
+💼 Why We’re Proud of What We Built
+We’re thrilled to have built a tool that tackles a real-world issue head-on, making Toronto more accessible for seniors. The map’s intuitive design means anyone can use it, and diving into geospatial data and mapping tech pushed our team to new heights. This is more than a project it’s a step toward inclusive cities.
+
+⏰ What We Learned
+Teamwork made the dream work. From frontend finesse to data wrangling, every member brought something unique to the table. We learned how crucial user-centered design is, especially for seniors, and got hands-on with mapping libraries and geospatial data, skills we’ll carry forward.
+
+🚌 Where Accessibly is Headed
+Toronto’s just the start. We see AccessiBuddy expanding to cities worldwide, helping seniors navigate urban jungles everywhere. Next up: adding more amenities like accessible parking or medical facilities, and maybe even syncing with transit schedules for real-time updates. The future’s wide open.
+
 
 ## Getting Started
 
-First, run the development server:
+# 1. Clone the repo and move into the project folder
+git clone https://github.com/your-username/yong-bench-map.git
+cd yong-bench-map
 
-```bash
+# 2. Install all dependencies
+npm install
+
+# 3. Start the local development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

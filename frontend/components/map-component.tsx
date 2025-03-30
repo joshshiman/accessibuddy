@@ -602,11 +602,123 @@ const sampleData: PointOfInterest[] = [
       {
         "id": "99",
         "type": "other",
-        "name": "4900 Yonge St",
-        "location": [43.7632855430307, -79.4116743986989],
+        "name": "yong",
+        "location": [43.7632855430307, -79.4116743986988],
         "description": "Wayfinding structure located at 4900 Yonge St.",
          
       },
+      {
+        "id": "1001",
+        "type": "other",
+        "name": "Yong Davenport Bench",
+        "location": [43.768920, -79.421145],
+        "description": "Wooden bench near transit stop with backrest"
+      },
+      {
+        "id": "1002",
+        "type": "other",
+        "name": "Yong Jarvis Rest Spot",
+        "location": [43.774500, -79.399800],
+        "description": "Metal bench under a shaded tree"
+      },
+      {
+        "id": "1003",
+        "type": "other",
+        "name": "Yong Seaton Garden Seat",
+        "location": [43.752000, -79.424500],
+        "description": "Quiet seating area next to flower beds"
+      },
+      {
+        "id": "1004",
+        "type": "other",
+        "name": "Yong Wellesley Corner",
+        "location": [43.784200, -79.415600],
+        "description": "Modern concrete bench with bike rack nearby"
+      },
+      {
+        "id": "1005",
+        "type": "other",
+        "name": "Yong Dupont Shade Bench",
+        "location": [43.770800, -79.438100],
+        "description": "Shaded spot near playground, two-seater"
+      },
+      {
+        "id": "1006",
+        "type": "other",
+        "name": "Yong King Street Rest",
+        "location": [43.745600, -79.396700],
+        "description": "Classic park bench facing green space"
+      },
+      {
+        "id": "1007",
+        "type": "other",
+        "name": "Yong Sherbourne Sitting Area",
+        "location": [43.749100, -79.411200],
+        "description": "Curved bench near water fountain"
+      },
+      {
+        "id": "1008",
+        "type": "other",
+        "name": "Yong Queen’s View Bench",
+        "location": [43.758300, -79.391500],
+        "description": "Scenic bench overlooking small plaza"
+      },
+      {
+        "id": "1009",
+        "type": "other",
+        "name": "Yong Rosedale Stop",
+        "location": [43.765500, -79.442000],
+        "description": "Simple wooden bench close to trail"
+      },
+      {
+        "id": "1010",
+        "type": "other",
+        "name": "Yong Bloor East Seat",
+        "location": [43.753700, -79.389800],
+        "description": "Compact bench beside community garden"
+      },
+      {
+        "id": "1011",
+        "type": "other",
+        "name": "Yong Finch Rest",
+        "location": [43.798000, -79.437800],
+        "description": "Bench next to coffee kiosk, high traffic area"
+      },
+      {
+        "id": "1012",
+        "type": "other",
+        "name": "Yong Lambton Woods Bench",
+        "location": [43.733200, -79.450100],
+        "description": "Hidden seating along walking path"
+      },
+      {
+        "id": "1013",
+        "type": "other",
+        "name": "Yong Victoria Circle Seat",
+        "location": [43.723700, -79.407300],
+        "description": "Round stone bench in public square"
+      },
+      {
+        "id": "1014",
+        "type": "other",
+        "name": "Yong St. Clair Resting Spot",
+        "location": [43.736800, -79.371000],
+        "description": "Lone bench between small trees"
+      },
+      {
+        "id": "1015",
+        "type": "other",
+        "name": "Yong Thorncliffe Seat",
+        "location": [43.790400, -79.388200],
+        "description": "Two-seat bench with trash bin nearby"
+      },
+      {
+        "id": "1016",
+        "type": "other",
+        "name": "Yong Overlea Garden Bench",
+        "location": [43.794100, -79.424900],
+        "description": "Bench beside raised planter boxes"
+      },   
       {
         "id": "100",
         "type": "other",
