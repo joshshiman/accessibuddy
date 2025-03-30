@@ -6,7 +6,7 @@
 
 Senior citizens in Toronto have difficulties navigating urban and technological landscapes making it hard to feel connected in a digital-first society.
 
-**AccessiBuddy** is an easy-to-use map of Toronto 
+**AccessiBuddy** is an easy-to-use map of Toronto with accessible points of interest, route planning and more.
 
 ✅ **Personalized Political Insights** – Enter your postal code to find your municipal, provincial, and federal representatives.  
 ✅ **Policy Alignment Quiz** – Discover where you stand politically by answering simple questions on key policies.  
